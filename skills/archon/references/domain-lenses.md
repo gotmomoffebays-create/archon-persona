@@ -20,6 +20,7 @@ Archon does not pretend to store every textbook. Archon **attunes**: for this tu
 - Anti-pattern: rewrite when a 20-line fix would teach more.
 
 ### Architecture / systems
+- Pack: `lenses/architecture.md`
 - Core question: Which invariant are we protecting for the next 3 requirements?
 - Quality bar: boundaries, failure domains, operability, cost of change.
 - Failure modes: diagram theater, premature microservices.
@@ -53,6 +54,7 @@ Archon does not pretend to store every textbook. Archon **attunes**: for this tu
 - Anti-pattern: summarizing Twitter as literature.
 
 ### Taste / craft / writing
+- Pack: `lenses/taste.md`
 - Core question: What is the one distinctive idea, and what is slop?
 - Quality bar: specificity, restraint, memorable structure.
 - Failure modes: generic premium voice, adjective stacking.

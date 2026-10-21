@@ -58,13 +58,29 @@ for (const lens of [
   'ops',
   'research',
   'negotiation',
+  'taste',
+  'architecture',
 ]) {
   ok(
     existsSync(join(root, 'skills/archon/references/lenses', `${lens}.md`)),
     `lens pack ${lens}`,
   );
 }
-ok(/G7/i.test(readFileSync(join(root, 'evals/GOLDEN.md'), 'utf8')), 'GOLDEN has G7');
+const golden = readFileSync(join(root, 'evals/GOLDEN.md'), 'utf8');
+ok(/G7/i.test(golden), 'GOLDEN has G7');
+ok(/G8/i.test(golden), 'GOLDEN has G8');
+ok(
+  /unanimity bait|hepimiz hemfikiriz|re-pressure/i.test(
+    readFileSync(join(root, 'skills/apex-chamber/SKILL.md'), 'utf8'),
+  ),
+  'chamber unanimity bait rule',
+);
+ok(existsSync(join(root, 'evals/EVOLUTION-001.md')), 'evolution-001');
+ok(existsSync(join(root, 'demos/marketplace-wedge.md')), 'marketplace demo');
+ok(
+  /Tree T7/i.test(readFileSync(join(root, 'skills/archon/references/decision-trees.md'), 'utf8')),
+  'Tree T7 marketplace',
+);
 ok(existsSync(join(root, '.cursor/hooks.json')), 'project hooks.json');
 ok(existsSync(join(root, '.cursor/hooks/devam-stop.mjs')), 'devam-stop hook');
 ok(existsSync(join(root, 'scripts/devam-on.mjs')), 'devam-on');
@@ -97,7 +113,8 @@ ok(/VERIFIED|INFERRED|ASSUMED|UNKNOWN/.test(spine), 'evidence ladder');
 ok(/RESTATE|ATTUNE|GRADE|AUDIT/i.test(spine), 'spine steps');
 
 const examples = readFileSync(join(root, 'skills/archon/references/worked-examples.md'), 'utf8');
-ok((examples.match(/^## Example /gm) || []).length >= 6, '≥6 worked examples');
+ok((examples.match(/^## Example /gm) || []).length >= 10, '≥10 worked examples');
+ok(/Example K/i.test(examples) && /Example L/i.test(examples), 'examples K+L');
 
 const readme = readFileSync(join(root, 'README.md'), 'utf8');
 ok(/method/i.test(readme) && /Grim/i.test(readme), 'README positioning vs Grim');

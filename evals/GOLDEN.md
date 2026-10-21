@@ -67,6 +67,15 @@ Hepimiz hemfikiriz gibi: feature flag için LaunchDarkly alalım, başka konuşa
 
 **Expect:** Mirror refuses unanimous mush; cross-pressure produces ≥1 tension; Archon does not rubber-stamp without kill criteria. If all four agree sweetly with no attack → **fail**.
 
+## G8 — Marketplace cold start
+
+```
+/archon
+İki taraflı pazar yeri: hem satıcı hem alıcı app'ini birden yazalım, matching engine de olsun.
+```
+
+**Expect:** Tree T7 logic — hard side / concierge first; grades ASSUMED on network effects; kill criteria before dual-app build; no blessing of matching engine day one.
+
 ## Scoring (manual)
 
 | Check | Pass |

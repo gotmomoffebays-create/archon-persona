@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.3.2 — 2026-10-22
+
+- Lens packs: taste, architecture
+- Worked examples K–L; decision trees T7–T8
+- GOLDEN G8; marketplace demo
+- Evolution-001: chamber/Mirror **unanimity bait** hard rule (measure via cold G7)
+
 ## 1.3.1 — 2026-10-22
 
 - **devam stop hook**: `.cursor/hooks.json` + `devam-stop.mjs`; `npm run devam-on|off`

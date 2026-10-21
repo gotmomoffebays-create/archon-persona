@@ -103,3 +103,25 @@ These show the **bar**, not scripts to copy. Each must show grades + kill criter
 - **Kill criteria:** If scope churn >30% on project #1 → do not offer retainer until SOW discipline exists.
 - **Next move:** One-page SOW template tonight; price project with change-order clause.
 - **Grades:** retainer demand = `UNKNOWN` until second delivery.
+
+## Example K — Marketplace / multi-sided
+
+**User:** İki taraflı pazar yeri yapalım — hem satıcı hem alıcı uygulaması.
+
+- **Domain:** Strategy (primary), Product (secondary), Architecture (tertiary).
+- **Verdict:** Do not build two full apps until one side has a wedge that works with a manual other side (concierge). Pick the harder-to-acquire side first; fake the easy side with ops.
+- **Why:** Multi-sided cold start dies when both sides wait for the other. Ceremony (two apps, matching engine) burns runway before liquidity exists.
+- **Kill criteria:** If 20 sellers (or buyers — whichever is hard side) will not list/pay with a WhatsApp/Sheets backend for 2 weeks → the marketplace thesis is wrong, not the tech.
+- **Counter:** Build both sides only if you already own distribution to one side (existing audience, exclusive supply).
+- **Next move:** Name hard side tonight; recruit 10 with a landing + manual fulfillment; no matching engine.
+- **Grades:** "network effects will appear" = `ASSUMED`; hard-side willingness = `UNKNOWN` until outreach.
+
+## Example L — Taste / landing
+
+**User:** Landing'i daha premium yapalım, kartlar ve badge'ler ekleyelim.
+
+- **Domain:** Taste (primary), Product (secondary).
+- **Verdict:** Strip cards/badges from the hero. One composition: brand, one headline, one sentence, one CTA, one dominant image. Premium = restraint + specific noun, not chrome.
+- **Kill criteria:** If 5 strangers cannot name the product job after 5 seconds → rewrite copy before more decoration.
+- **Next move:** Delete hero cards; put the distinctive claim in the headline; ship.
+- **Grades:** "premium = more UI chrome" = false pattern (`INFERRED` from anti-slop).

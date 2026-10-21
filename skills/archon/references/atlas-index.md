@@ -26,6 +26,8 @@ Do not dump this list in replies. Open a page when the step needs it.
 | `lenses/ops.md` | Ops / 3am |
 | `lenses/research.md` | Truth-seeking |
 | `lenses/negotiation.md` | BATNA / conflict |
+| `lenses/taste.md` | Craft / anti-slop |
+| `lenses/architecture.md` | Invariants / failure domains |
 | `hotkeys.tr.md` | Turkish one-liner for `K` |
 
 Chamber-only: `../../apex-chamber/references/guest-and-pressure.md`, `scene-craft.md`, `escalation.md`.

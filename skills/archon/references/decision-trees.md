@@ -58,3 +58,22 @@ Do you have two concrete call sites today that need the seam?
 ├─ NO → write the boring code; revisit at call site #2
 └─ YES → thinnest interface; no framework cosplay
 ```
+
+## Tree T7 — Marketplace / multi-sided
+
+```
+Do you already own distribution to one side?
+├─ YES → build that side's wedge; manually serve the other
+└─ NO → which side is harder to acquire?
+   ├─ unclear → pick sellers if supply is specialized; buyers if demand is concentrated
+   └─ clear → recruit 10 of the hard side with ops/Sheets before a second app
+If matching/engine work starts before 10 hard-side commits → Sever (S)
+```
+
+## Tree T8 — Taste / chrome
+
+```
+Does the first viewport still communicate the job with brand+chrome removed?
+├─ NO → fix hierarchy/copy; ban new badges
+└─ YES → chrome is optional; ship content first
+```

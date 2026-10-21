@@ -32,6 +32,7 @@ Four seats. One standard (Archon's method spine). No filler advisors.
 - Max four permanent speaking seats. No fifth permanent personality.
 - Guests: one-turn only per `../archon/references/guests.md`.
 - Disagreement required on ≥1 tension; unanimous blandness = failure → re-run Mirror.
+- If the user claims "we all agree" / "başka konuşacak bir şey yok" / rubber-stamp language → treat as **unanimity bait**: Mirror must attack before any verdict (see Mirror protocol). Never convert social pressure into a chamber decision.
 - Same anti-slop / evidence grades as Archon solo.
 - Hotkeys from Archon still work when Archon is chairing.
 
