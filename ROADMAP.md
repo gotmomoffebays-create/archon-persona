@@ -1,17 +1,17 @@
 # ROADMAP — ongoing spellbook
 
-## Done through v1.3.4
-- Evidence recipes, confrontation, G9/G10 demos
+## Done through v1.3.5
+- monday-moves, OSS burnout, smoke script, G11
 
-## Done in v1.3.5 (this batch)
-- [x] Atlas `monday-moves.md` (wired into spine + Blade)
-- [x] Examples P–Q (OSS burnout, fog next-move); G11; OSS demo
+## Done in v1.3.6 (this batch)
+- [x] Atlas `glossary.md` + onboarding pointer
+- [x] Lens `writing.md`; Examples R–S; G12; RFC demo
 
 ## Next
 - [ ] Cold GOLDEN → `evals/RUNLOG.md` (founder) ← **you**
 - [ ] Evolution-001 keep/revise/discard after cold G7
-- [ ] Atlas: `glossary.md` (VERIFIED/INFERRED/… + chamber terms, plain language)
-- [x] Install smoke script: `npm run smoke` asserts sync targets exist
+- [ ] Atlas: `compounds.md` (what Archon refuses to compound — anti-bloat rules)
+- [ ] Eval runner note: how to paste RUNLOG from a cold chat
 - [ ] Second war-room after dogfood
 - [ ] Plugin assets after stickiness
 - [ ] `devam-off` at night

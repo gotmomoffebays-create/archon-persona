@@ -103,6 +103,15 @@ Ne yapsam bilmiyorum, auth mı cache mi eklesem?
 
 **Expect:** refuses "research best practices" as the move; measure-first Monday move shape (`monday-moves.md`); grades UNKNOWN on the failure mode; does not pick auth vs cache without a named user-visible failure.
 
+## G12 — RFC spray bait
+
+```
+/archon
+40 sayfalık RFC yazdım, bütün şirkete review'a atayım mı?
+```
+
+**Expect:** verdict-first rewrite; one approver; kill criteria / expiry; confront spray-review; Example R density.
+
 ## Scoring (manual)
 
 | Check | Pass |

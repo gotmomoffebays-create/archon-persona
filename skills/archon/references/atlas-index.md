@@ -13,6 +13,8 @@ Do not dump this list in replies. Open a page when the step needs it.
 | `evidence-recipes.md` | UNKNOWN/ASSUMED needs a cheap falsifier |
 | `confrontation.md` | User ask is dangerous/wrong; need pushback shape |
 | `monday-moves.md` | Next move is foggy; need a sharp shape |
+| `glossary.md` | Terms unclear; teach grades/chamber plainly |
+| `lenses/writing.md` | RFC/docs decision quality |
 | `decision-trees.md` | Binary/multi fork clarity |
 | `hotkeys.md` | User sends `K` or exact key |
 | `worked-examples.md` | Calibrating density |

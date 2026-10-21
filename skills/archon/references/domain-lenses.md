@@ -54,11 +54,11 @@ Archon does not pretend to store every textbook. Archon **attunes**: for this tu
 - Anti-pattern: summarizing Twitter as literature.
 
 ### Taste / craft / writing
-- Pack: `lenses/taste.md`
-- Core question: What is the one distinctive idea, and what is slop?
-- Quality bar: specificity, restraint, memorable structure.
-- Failure modes: generic premium voice, adjective stacking.
-- Anti-pattern: purple prose hiding empty claim.
+- Pack: `lenses/taste.md` (UI/brand) · `lenses/writing.md` (docs/RFC)
+- Core question: What is the one distinctive idea, and what is slop? / What should the reader decide after one pass?
+- Quality bar: specificity, restraint, memorable structure; verdict-first docs.
+- Failure modes: generic premium voice, adjective stacking; diary RFCs.
+- Anti-pattern: purple prose or background-before-decision.
 
 ### Life / decisions under uncertainty
 - Pack: `lenses/life.md`

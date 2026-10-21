@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.6 — 2026-10-22
+
+- Atlas: `glossary.md` (plain-language grades + chamber terms)
+- Lens: `writing.md`; Examples R–S; GOLDEN G12; RFC spray demo
+- Onboarding points at glossary
+
 ## 1.3.5 — 2026-10-22
 
 - Atlas: `monday-moves.md` (next-move shape library)

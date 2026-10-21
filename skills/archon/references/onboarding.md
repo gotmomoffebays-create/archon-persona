@@ -41,3 +41,7 @@ Confirm guest speaks once and does not become a fifth permanent seat.
 - Install path longer than one screen in README
 
 If fail: thicken `method-spine.md` / examples — do not add seats.
+
+## Terms
+
+Stuck on VERIFIED vs ASSUMED / what Chamber means? Open `glossary.md` (plain language).

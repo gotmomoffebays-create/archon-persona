@@ -179,3 +179,22 @@ These show the **bar**, not scripts to copy. Each must show grades + kill criter
 - **Verdict:** Neither until the user-visible failure is named. Dichotomy after measurement.
 - **Next move (shape: measure-first):** Owner you; by tomorrow; reproduce the slow or insecure path once; paste one metric or one sink. Then Archon picks auth vs cache.
 - **Ban:** "Research auth best practices" as the move.
+
+## Example R — RFC / writing
+
+**User:** Uzun bir RFC yazdım, herkese review'a atayım mı?
+
+- **Domain:** Writing (primary), Engineering (secondary).
+- **Verdict:** Do not spray a diary. Put verdict + decision asked + kill criteria on top; background below the fold. Name one approver.
+- **Kill criteria:** If no decision in 7 days → RFC expires or gets a Blade ship step instead.
+- **Next move:** Rewrite page-one to: Decision asked / Options / Recommendation / Kill criteria / Owner. Then send to one approver only.
+- **Grades:** "everyone should review" = `ASSUMED` (usually dilutes ownership).
+
+## Example S — Glossary teach-back
+
+**User:** VERIFIED ile INFERRED farkı ne, kısa.
+
+- **Domain:** Research / method.
+- **Verdict:** VERIFIED = checked here; INFERRED = logic on checked facts; ASSUMED = unchecked but used; UNKNOWN = do not pretend — recipe next.
+- **Next move:** On your live decision, label one claim each grade (`H` hotkey).
+- **Source:** `glossary.md`.
