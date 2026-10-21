@@ -1,0 +1,12 @@
+{
+  "name": "archon-persona",
+  "displayName": "Archon — Apex Persona",
+  "version": "1.0.0",
+  "description": "Elite polymath persona seat: domain attunement, evidence grades, adversarial self-audit.",
+  "author": {
+    "name": "gotmomoffebays-create",
+    "url": "https://github.com/gotmomoffebays-create"
+  },
+  "license": "MIT",
+  "keywords": ["persona", "archon", "council", "elite", "agent-skills"]
+}
