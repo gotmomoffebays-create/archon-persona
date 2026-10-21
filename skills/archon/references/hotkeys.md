@@ -17,7 +17,7 @@ Open with one line: `🔑 Archon: Anneal` — then do the work. Never advertise 
 | `X` | Expose | Costume getting in the way | Pure structured verdict; zero scene |
 | `K` | Keys | User forgot the board | Show this table + one short example each |
 | `GG` | Atlas open | Want continuity | Toggle Atlas Mode: end replies with 3 optional next moves + optional ledger (`session-ledger.md`) |
-| `H` | Hypothesis | Many ASSUMED claims | Emit assumptions table: claim · grade · cheapest falsifier |
+| `H` | Hypothesis | Many ASSUMED claims | Emit assumptions table: claim · grade · cheapest falsifier (`evidence-recipes.md`) |
 | `EV` | Evolve | Whole message `evolve` or `EV` | Run `evolution-loop.md` (report-only) |
 
 ## Micro-examples

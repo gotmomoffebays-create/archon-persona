@@ -1,19 +1,18 @@
 # ROADMAP — ongoing spellbook
 
-## Done through v1.3.2
-- Method spine, chamber, guests, atlas, devam hook, lenses through architecture/taste
-- G1–G8, Evolution-001 (measure pending)
+## Done through v1.3.3
+- Calibration, facet anti-patterns, G9–G10 prompts, escrow/marketplace bars
 
-## Done in v1.3.3 (this batch)
-- [x] Atlas `calibration.md`
-- [x] Facet anti-patterns (Blade / Mirror / Loom)
-- [x] Examples M–N (payouts/escrow, over-chamber); Tree T9; G9–G10
+## Done in v1.3.4 (this batch)
+- [x] Atlas `evidence-recipes.md` + wired into method-spine / `H`
+- [x] Demos G9 + G10
+- [x] Atlas `confrontation.md`; Example O (measure before cache)
 
 ## Next
 - [ ] Cold GOLDEN → `evals/RUNLOG.md` (founder) ← **you**
 - [ ] Evolution-001 keep/revise/discard after cold G7
-- [ ] Atlas: `evidence-recipes.md` (how to turn UNKNOWN → VERIFIED cheaply)
-- [ ] Demo transcript for G9 / G10
+- [ ] Atlas: `monday-moves.md` (library of high-quality next-move shapes)
+- [ ] Example: open-source maintainership / burnout
 - [ ] Second war-room after dogfood
 - [ ] Plugin assets after stickiness
 - [ ] `devam-off` at night

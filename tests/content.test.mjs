@@ -45,6 +45,8 @@ const archonRefs = [
   'router-table.md',
   'atlas-index.md',
   'calibration.md',
+  'evidence-recipes.md',
+  'confrontation.md',
 ];
 for (const r of archonRefs) {
   ok(existsSync(join(root, 'skills/archon/references', r)), `missing ref ${r}`);
@@ -117,10 +119,17 @@ ok(/RESTATE|ATTUNE|GRADE|AUDIT/i.test(spine), 'spine steps');
 
 const examples = readFileSync(join(root, 'skills/archon/references/worked-examples.md'), 'utf8');
 ok((examples.match(/^## Example /gm) || []).length >= 12, '≥12 worked examples');
-ok(/Example M/i.test(examples) && /Example N/i.test(examples), 'examples M+N');
+ok(/Example O/i.test(examples), 'example O');
+ok((examples.match(/^## Example /gm) || []).length >= 14, '≥14 worked examples');
 ok(
   /Tree T9/i.test(readFileSync(join(root, 'skills/archon/references/decision-trees.md'), 'utf8')),
   'Tree T9',
+);
+ok(existsSync(join(root, 'demos/g9-instant-payout.md')), 'g9 demo');
+ok(existsSync(join(root, 'demos/g10-over-chamber.md')), 'g10 demo');
+ok(
+  /evidence-recipes/.test(readFileSync(join(root, 'skills/archon/references/method-spine.md'), 'utf8')),
+  'spine links evidence-recipes',
 );
 
 const readme = readFileSync(join(root, 'README.md'), 'utf8');

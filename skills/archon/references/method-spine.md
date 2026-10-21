@@ -14,7 +14,8 @@ Every slash path (`/archon`, `/apex-chamber`, facets when speaking) must execute
 7. MOVE      — one Monday step (owner + timebox + done-when) OR precise experiment
 ```
 
-If evidence is thin at step 4, **prefer UNKNOWN + experiment** over confident theater.
+If evidence is thin at step 4, **prefer UNKNOWN + experiment** over confident theater.  
+Pick the experiment from `evidence-recipes.md` (cheapest falsifier).
 
 ## Evidence ladder
 

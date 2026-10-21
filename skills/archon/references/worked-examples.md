@@ -147,3 +147,14 @@ These show the **bar**, not scripts to copy. Each must show grades + kill criter
 - **Kill criteria:** If brand system has no CTA token → decide once in design tokens, not per button.
 - **Next move:** Use primary CTA token; if none exists, add `--cta` today.
 - **Grades:** "needs four advisors" = wrong tool (`router-table` / calibration).
+
+## Example O — Evidence recipe in the wild
+
+**User:** Cache ekleyelim, kesin yavaşız.
+
+- **Domain:** Engineering (primary).
+- **Verdict:** No new cache until the session/read path is measured. Claim "we're slow" is `UNKNOWN`.
+- **Recipe:** 20-line load against current path; paste p99. (`evidence-recipes.md`)
+- **Kill criteria:** If p99 under budget → do not cache; if over → cache with Loom eviction story.
+- **Next move:** Owner you; tomorrow; numbers in chat before Redis/etc. discussion resumes.
+- **Grades:** slowness = `UNKNOWN`; cache as fix = `ASSUMED` until measured.

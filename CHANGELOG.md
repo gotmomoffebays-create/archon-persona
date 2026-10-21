@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.4 — 2026-10-22
+
+- Atlas: `evidence-recipes.md`, `confrontation.md`
+- Demos for G9 (instant payout) and G10 (over-chamber)
+- Example O; spine/`H` link to evidence recipes
+
 ## 1.3.3 — 2026-10-22
 
 - Atlas: `calibration.md` (score ask → density / chamber vs solo)
