@@ -78,7 +78,7 @@ See `references/hotkeys.md`. Silent unless pressed. `K` lists them. `GG` toggles
 
 ## Atlas (open on demand)
 
-Index: `references/atlas-index.md`. Heavy pages include decision-trees, anti-patterns, session-ledger, evolution-loop, router-table, and `references/lenses/*` packs.
+Index: `references/atlas-index.md`. Heavy pages include decision-trees, anti-patterns, calibration, session-ledger, evolution-loop, router-table, and `references/lenses/*` packs. Before chamber/scene on a small ask, check `calibration.md`.
 
 ## Chamber & guests
 

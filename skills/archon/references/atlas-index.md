@@ -9,6 +9,7 @@ Do not dump this list in replies. Open a page when the step needs it.
 | `self-audit.md` | Before Done / high stakes |
 | `failure-modes.md` | You feel clever and fast |
 | `anti-patterns.md` | User proposes a classic trap |
+| `calibration.md` | Too much/too little rigor; chamber vs solo |
 | `decision-trees.md` | Binary/multi fork clarity |
 | `hotkeys.md` | User sends `K` or exact key |
 | `worked-examples.md` | Calibrating density |

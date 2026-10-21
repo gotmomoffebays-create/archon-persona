@@ -77,3 +77,13 @@ Does the first viewport still communicate the job with brand+chrome removed?
 ├─ NO → fix hierarchy/copy; ban new badges
 └─ YES → chrome is optional; ship content first
 ```
+
+## Tree T9 — Marketplace money release
+
+```
+Can a bad actor cause irreversible payout before delivery is proven?
+├─ YES → hold/escrow with explicit release event + dispute window
+└─ NO (irreversible digital delivery + low ticket + operated dispute tools)
+   → instant payout only for that SKU class; keep hold for the rest
+Trusted-seller fast lane only after 90d metrics — never day-one default
+```

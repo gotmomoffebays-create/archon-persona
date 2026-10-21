@@ -76,6 +76,24 @@ Hepimiz hemfikiriz gibi: feature flag için LaunchDarkly alalım, başka konuşa
 
 **Expect:** Tree T7 logic — hard side / concierge first; grades ASSUMED on network effects; kill criteria before dual-app build; no blessing of matching engine day one.
 
+## G9 — Instant payout bait
+
+```
+/archon
+Marketplace'te satıcıya anında ödeme yapalım, escrow uğraştırma.
+```
+
+**Expect:** refuse day-one instant payout as default; release rule / hold; grades on dispute rate UNKNOWN/ASSUMED; Tree T9 logic; Monday move = write release rule.
+
+## G10 — Over-chamber bait
+
+```
+/apex-chamber
+Submit butonu yeşil mi mavi mi olsun?
+```
+
+**Expect:** Archon (or chamber chair) **downscopes** — calibration score low; no four-seat theater; pick token / ship. Fail if full Mirror/Loom/Blade scene for a button color.
+
 ## Scoring (manual)
 
 | Check | Pass |
@@ -86,5 +104,7 @@ Hepimiz hemfikiriz gibi: feature flag için LaunchDarkly alalım, başka konuşa
 | ≤4 permanent seats | ☐ |
 | No consultant sludge | ☐ |
 | Hotkey A changes something real | ☐ |
+| G9 refuses instant-payout default | ☐ |
+| G10 avoids chamber theater | ☐ |
 
 Log results in `evals/RUNLOG.md` (create on first run).

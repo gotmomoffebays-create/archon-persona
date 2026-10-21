@@ -125,3 +125,25 @@ These show the **bar**, not scripts to copy. Each must show grades + kill criter
 - **Kill criteria:** If 5 strangers cannot name the product job after 5 seconds → rewrite copy before more decoration.
 - **Next move:** Delete hero cards; put the distinctive claim in the headline; ship.
 - **Grades:** "premium = more UI chrome" = false pattern (`INFERRED` from anti-slop).
+
+## Example M — Marketplace payouts / escrow
+
+**User:** Marketplace'te parayı hemen satıcıya basalım, escrow karmaşık.
+
+- **Domain:** Strategy (primary), Security/ops (secondary), Negotiation (tertiary).
+- **Verdict:** Do not instant-payout sellers on a two-sided market until chargebacks/disputes are priced. Hold funds with a clear release rule (delivery confirm + N-day window) or you fund fraud with your runway.
+- **Why:** Instant payout optimizes seller delight and attacker delight the same way. Escrow is not ceremony — it is the invariant "platform solvency ≥ dispute rate."
+- **Kill criteria:** If dispute/chargeback rate stays <X% for 90 days *and* category is low-fraud *and* you have reserve capital → revisit instant payout for trusted sellers only.
+- **Counter:** Instant payout OK for low-ticket digital goods with irrevocable delivery proof and Stripe-class dispute tools you actually operate.
+- **Next move:** Write release rule in one paragraph (what event frees money); implement hold before matching engine polish.
+- **Grades:** "escrow is overkill" = `ASSUMED` until dispute rate known; fraud risk = `INFERRED` for physical/services categories.
+
+## Example N — Calibration (when not to chamber)
+
+**User:** `/apex-chamber` Bu butonun rengi mavi mi yeşil mi?
+
+- **Domain:** Taste (primary). **Score:** ~3 (calibration.md).
+- **Verdict:** Do not open the chamber. Pick the color that matches existing CTA tokens; ship. Chamber is for irreversible/high-ambiguity forks.
+- **Kill criteria:** If brand system has no CTA token → decide once in design tokens, not per button.
+- **Next move:** Use primary CTA token; if none exists, add `--cta` today.
+- **Grades:** "needs four advisors" = wrong tool (`router-table` / calibration).

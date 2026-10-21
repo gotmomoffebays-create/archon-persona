@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.3 — 2026-10-22
+
+- Atlas: `calibration.md` (score ask → density / chamber vs solo)
+- Facet `anti-patterns.md` for Blade, Mirror, Loom
+- Examples M–N; Tree T9; GOLDEN G9–G10; escalation ties to calibration
+
 ## 1.3.2 — 2026-10-22
 
 - Lens packs: taste, architecture

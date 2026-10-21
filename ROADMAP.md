@@ -1,27 +1,25 @@
-# ROADMAP — this is an ongoing spellbook, not a weekend dump
+# ROADMAP — ongoing spellbook
 
-## Done (v1.2–v1.3.1)
-- Method spine, chamber 4-seat, guests, atlas chapters, devam stop-hook
-- Lens packs through research/negotiation; GOLDEN G1–G7; demos
+## Done through v1.3.2
+- Method spine, chamber, guests, atlas, devam hook, lenses through architecture/taste
+- G1–G8, Evolution-001 (measure pending)
 
-## Done in v1.3.2 (this batch — pack still open)
-- [x] Lens packs: taste, architecture
-- [x] Examples K–L (marketplace, taste/landing) + Trees T7–T8
-- [x] Eval G8 marketplace; marketplace demo
-- [x] Evolution-001 applied (unanimity bait → Mirror re-pressure); measure pending cold G7
+## Done in v1.3.3 (this batch)
+- [x] Atlas `calibration.md`
+- [x] Facet anti-patterns (Blade / Mirror / Loom)
+- [x] Examples M–N (payouts/escrow, over-chamber); Tree T9; G9–G10
 
-## Next (keep going)
-- [ ] First cold GOLDEN run logged in `evals/RUNLOG.md` (founder dogfood) ← **you**
+## Next
+- [ ] Cold GOLDEN → `evals/RUNLOG.md` (founder) ← **you**
 - [ ] Evolution-001 keep/revise/discard after cold G7
-- [ ] Example: marketplace pay-outs / escrow nuance
-- [ ] Atlas: `calibration.md` (how sharp is "sharp enough")
-- [ ] Facet anti-pattern pages (Blade/Mirror/Loom each)
-- [ ] Plugin marketplace assets — only after dogfood stickiness
-- [ ] Second war-room pass after dogfood
-- [ ] `devam-off` when done for the night
+- [ ] Atlas: `evidence-recipes.md` (how to turn UNKNOWN → VERIFIED cheaply)
+- [ ] Demo transcript for G9 / G10
+- [ ] Second war-room after dogfood
+- [ ] Plugin assets after stickiness
+- [ ] `devam-off` at night
 
-## Explicitly later / maybe never
-- Fifth seat · docs site · telemetry · Grim lore ports · SaaS wrapper
+## Later / never
+Fifth seat · docs site · telemetry · Grim lore · SaaS
 
-## Kill criteria for the whole pack
-If after 2 weeks of intended daily use the founder still prefers default Agent or Grim for hard calls **and** GOLDEN G1/G3 fail cold — freeze features; only fix install/docs.
+## Pack kill criteria
+2 weeks + still prefer default/Grim **and** G1/G3 fail cold → freeze; install/docs only.

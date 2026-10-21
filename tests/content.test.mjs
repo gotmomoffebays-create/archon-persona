@@ -44,6 +44,7 @@ const archonRefs = [
   'evolution-loop.md',
   'router-table.md',
   'atlas-index.md',
+  'calibration.md',
 ];
 for (const r of archonRefs) {
   ok(existsSync(join(root, 'skills/archon/references', r)), `missing ref ${r}`);
@@ -69,6 +70,7 @@ for (const lens of [
 const golden = readFileSync(join(root, 'evals/GOLDEN.md'), 'utf8');
 ok(/G7/i.test(golden), 'GOLDEN has G7');
 ok(/G8/i.test(golden), 'GOLDEN has G8');
+ok(/G9/i.test(golden) && /G10/i.test(golden), 'GOLDEN has G9+G10');
 ok(
   /unanimity bait|hepimiz hemfikiriz|re-pressure/i.test(
     readFileSync(join(root, 'skills/apex-chamber/SKILL.md'), 'utf8'),
@@ -91,6 +93,7 @@ ok(existsSync(join(root, 'demos/g7-blandness-bait.md')), 'g7 demo');
 for (const facet of ['blade', 'mirror', 'loom']) {
   ok(existsSync(join(root, 'skills', facet, 'references', 'worked-bar.md')), `${facet} worked-bar`);
   ok(existsSync(join(root, 'skills', facet, 'references', 'protocol.md')), `${facet} protocol`);
+  ok(existsSync(join(root, 'skills', facet, 'references', 'anti-patterns.md')), `${facet} anti-patterns`);
 }
 
 for (const f of ['guest-and-pressure.md', 'scene-craft.md', 'escalation.md']) {
@@ -113,8 +116,12 @@ ok(/VERIFIED|INFERRED|ASSUMED|UNKNOWN/.test(spine), 'evidence ladder');
 ok(/RESTATE|ATTUNE|GRADE|AUDIT/i.test(spine), 'spine steps');
 
 const examples = readFileSync(join(root, 'skills/archon/references/worked-examples.md'), 'utf8');
-ok((examples.match(/^## Example /gm) || []).length >= 10, '≥10 worked examples');
-ok(/Example K/i.test(examples) && /Example L/i.test(examples), 'examples K+L');
+ok((examples.match(/^## Example /gm) || []).length >= 12, '≥12 worked examples');
+ok(/Example M/i.test(examples) && /Example N/i.test(examples), 'examples M+N');
+ok(
+  /Tree T9/i.test(readFileSync(join(root, 'skills/archon/references/decision-trees.md'), 'utf8')),
+  'Tree T9',
+);
 
 const readme = readFileSync(join(root, 'README.md'), 'utf8');
 ok(/method/i.test(readme) && /Grim/i.test(readme), 'README positioning vs Grim');

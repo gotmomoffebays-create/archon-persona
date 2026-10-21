@@ -12,6 +12,7 @@
 - Need a sharp verdict fast
 - Typos / small forks with clear Tree in decision-trees.md
 - User fatigued by scene
+- **Calibration score ≤4** (`../../archon/references/calibration.md`) — e.g. button color, copy nit — do not open four seats
 
 ## Escalate out of Archon family
 
