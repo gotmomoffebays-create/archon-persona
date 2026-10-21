@@ -7,6 +7,8 @@ Elite apex polymath persona + Apex Chamber (Archon, Blade, Mirror, Loom) for Cur
 ```bash
 npm test
 npm run sync-local   # copy skills → ~/.agents, Agent Store, local plugin
+npm run devam-on     # stop-hook injects "devam" after each turn (max 40)
+npm run devam-off    # disarm auto-continue
 ```
 
 ## Structure

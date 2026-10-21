@@ -13,14 +13,17 @@
 
 ## Next (v1.4+ — keep going, do not declare finished)
 - [ ] First cold GOLDEN run logged in `evals/RUNLOG.md` (founder dogfood) ← **you**
-- [x] Eval G7 blandness bait (in GOLDEN.md)
-- [x] Lens packs strategy + ops (research/negotiation still open)
-- [ ] Lens packs: research, negotiation, taste/craft
-- [ ] More worked examples: ML product, marketplace, agency pricing
-- [ ] Optional Turkish microcopy for `K` menu only
+- [x] Eval G7 blandness bait + demo transcript
+- [x] Lens packs: strategy, ops, research, negotiation
+- [x] Examples: ML product, agency pricing
+- [x] Turkish `K` microcopy (`hotkeys.tr.md`)
+- [x] **devam stop-hook** (auto-continue when agent stops)
+- [ ] Lens pack: taste/craft
+- [ ] Example: marketplace / multi-sided
 - [ ] Plugin marketplace assets — only after dogfood stickiness
 - [ ] Weekly evolution proposal applied once with measured keep/discard
 - [ ] Second war-room pass after dogfood (Pressure + Chamber on failures)
+- [ ] Keep `npm run devam-on` while deep sessions run; `devam-off` when done for the night
 
 ## Explicitly later / maybe never
 - Fifth seat

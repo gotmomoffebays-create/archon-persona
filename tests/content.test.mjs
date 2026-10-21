@@ -49,13 +49,28 @@ for (const r of archonRefs) {
   ok(existsSync(join(root, 'skills/archon/references', r)), `missing ref ${r}`);
 }
 
-for (const lens of ['engineering', 'security', 'product', 'life', 'strategy', 'ops']) {
+for (const lens of [
+  'engineering',
+  'security',
+  'product',
+  'life',
+  'strategy',
+  'ops',
+  'research',
+  'negotiation',
+]) {
   ok(
     existsSync(join(root, 'skills/archon/references/lenses', `${lens}.md`)),
     `lens pack ${lens}`,
   );
 }
 ok(/G7/i.test(readFileSync(join(root, 'evals/GOLDEN.md'), 'utf8')), 'GOLDEN has G7');
+ok(existsSync(join(root, '.cursor/hooks.json')), 'project hooks.json');
+ok(existsSync(join(root, '.cursor/hooks/devam-stop.mjs')), 'devam-stop hook');
+ok(existsSync(join(root, 'scripts/devam-on.mjs')), 'devam-on');
+ok(existsSync(join(root, 'scripts/devam-off.mjs')), 'devam-off');
+ok(existsSync(join(root, 'skills/archon/references/hotkeys.tr.md')), 'hotkeys.tr');
+ok(existsSync(join(root, 'demos/g7-blandness-bait.md')), 'g7 demo');
 
 for (const facet of ['blade', 'mirror', 'loom']) {
   ok(existsSync(join(root, 'skills', facet, 'references', 'worked-bar.md')), `${facet} worked-bar`);

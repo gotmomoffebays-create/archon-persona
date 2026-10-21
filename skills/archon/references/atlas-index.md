@@ -22,5 +22,10 @@ Do not dump this list in replies. Open a page when the step needs it.
 | `lenses/security.md` | Deep security attunement |
 | `lenses/product.md` | Deep product/UX attunement |
 | `lenses/life.md` | Deep life / irreversible bets |
+| `lenses/strategy.md` | Strategy / who pays |
+| `lenses/ops.md` | Ops / 3am |
+| `lenses/research.md` | Truth-seeking |
+| `lenses/negotiation.md` | BATNA / conflict |
+| `hotkeys.tr.md` | Turkish one-liner for `K` |
 
 Chamber-only: `../../apex-chamber/references/guest-and-pressure.md`, `scene-craft.md`, `escalation.md`.

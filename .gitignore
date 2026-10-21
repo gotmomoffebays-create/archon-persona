@@ -1,0 +1,5 @@
+# Local continue-loop counters (keep template via devam.state — commit active config intentionally)
+# Uncomment next line if you do not want to share armed state:
+# .cursor/devam.state.json
+.DS_Store
+node_modules/

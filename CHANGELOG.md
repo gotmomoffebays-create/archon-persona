@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.1 — 2026-10-22
+
+- **devam stop hook**: `.cursor/hooks.json` + `devam-stop.mjs`; `npm run devam-on|off`
+- User-level mirror hook `~/.cursor/hooks/archon-devam-stop.mjs`
+- Lens packs: research, negotiation; examples I–J; G7 blandness demo; `hotkeys.tr.md`
+
 ## 1.3.0 — 2026-10-22
 
 - Ongoing deepen (not a fake finish): atlas chapters (decision-trees, anti-patterns, ledger, evolution, router, atlas-index)

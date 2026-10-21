@@ -50,6 +50,17 @@ npm test
 npm run sync-local
 ```
 
+### Auto-continue (`devam` stop hook)
+
+When armed, ending an Agent turn injects followup **`devam`** so deepen keeps going (max 40 loops).
+
+```bash
+npm run devam-on        # arm (optional: npm run devam-on -- 20)
+npm run devam-off       # disarm
+```
+
+Requires Cursor Hooks enabled. Project: `.cursor/hooks.json`. Also mirrored in `~/.cursor/hooks.json` for this machine. Check **Cursor Settings → Hooks**.
+
 See `AGENTS.md`, `CONTRIBUTING.md`, `ROADMAP.md`, `CHANGELOG.md`.  
 War-room design archive: `council-archon-deepen/`.
 

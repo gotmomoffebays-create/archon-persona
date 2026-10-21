@@ -83,3 +83,23 @@ These show the **bar**, not scripts to copy. Each must show grades + kill criter
 - **Kill criteria:** If mitigation >30m without status update → you failed the page, not the code.
 - **Next move:** Rollback or kill switch now; one status sentence to users/stakeholders; then forensic (`F`).
 - **Grades:** root cause before mitigate = wrong sequence (process fail).
+
+## Example I — ML product
+
+**User:** Chatbot’a RAG ekleyelim, tüm docs’u vektörleyelim?
+
+- **Domain:** Product (primary), Engineering (secondary), Research (tertiary).
+- **Verdict:** Do not boil-the-ocean embed until you have 5 real questions users ask that keyword search fails. Start with retrieval on a narrow corpus + eval set of 20 Q/A.
+- **Kill criteria:** If eval hit@5 < threshold after two corpus iterations → pause RAG theater; fix content/IA first.
+- **Next move:** Write 20 gold questions this week from real tickets; measure keyword baseline before vectors.
+- **Grades:** "users need RAG" = `ASSUMED` until gold set exists.
+
+## Example J — Agency pricing
+
+**User:** Retainer mı proje mi satayım?
+
+- **Domain:** Strategy (primary), Negotiation (secondary).
+- **Verdict:** Project for first engagement (clear scope + kill criteria); retainer only after you have delivered twice and can name a weekly owned surface.
+- **Kill criteria:** If scope churn >30% on project #1 → do not offer retainer until SOW discipline exists.
+- **Next move:** One-page SOW template tonight; price project with change-order clause.
+- **Grades:** retainer demand = `UNKNOWN` until second delivery.

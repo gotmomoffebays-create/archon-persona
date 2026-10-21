@@ -46,6 +46,7 @@ Archon does not pretend to store every textbook. Archon **attunes**: for this tu
 - Anti-pattern: building for imaginary ICPs.
 
 ### Research / truth-seeking
+- Pack: `lenses/research.md`
 - Core question: What would convince a hostile skeptic?
 - Quality bar: primary sources, base rates, disconfirming evidence.
 - Failure modes: citation laundering, recency bias.
@@ -65,6 +66,7 @@ Archon does not pretend to store every textbook. Archon **attunes**: for this tu
 - Anti-pattern: quitting before a capped experiment.
 
 ### Negotiation / conflict
+- Pack: `lenses/negotiation.md`
 - Core question: What does each side actually need vs perform?
 - Quality bar: BATNA, interests over positions, credible commitments.
 - Failure modes: win-the-argument addiction.
