@@ -1,6 +1,6 @@
 # Worked examples (substance bar)
 
-These show the **bar**, not scripts to copy. Adapt hard to the user's problem. Each must show grades + kill criteria + Monday move.
+These show the **bar**, not scripts to copy. Each must show grades + kill criteria + Monday move.
 
 ## Example A — Engineering fork
 
@@ -53,3 +53,33 @@ These show the **bar**, not scripts to copy. Adapt hard to the user's problem. E
 - **Loom:** Invariant = one versioned contract for shared libs.
 - **Blade:** Stay monorepo; ship one package boundary lint this week.
 - **Archon:** Monorepo default; kill criteria = CI >20m or ownership fights → reconsider split. Grades on team size = `UNKNOWN` until named.
+
+## Example F — Pricing
+
+**User:** $9 mı $29 mu aylık?
+
+- **Domain:** Strategy (primary), Product (secondary).
+- **Verdict:** Pick a beachhead price that matches the buyer's budget conversation, not your cost-plus fantasy — default higher ($29) if B2B time-saved story; $9 only if pure consumer impulse.
+- **Kill criteria:** If 10 sales calls show sticker shock before value → test $19; if zero price objections and slow close → you may be underpriced.
+- **Next move:** 5 calls this week quoting $29; log first objection sentence.
+- **Grades:** willingness-to-pay = `UNKNOWN` until calls exist.
+
+## Example G — Hiring
+
+**User:** İlk hire junior mu senior mı?
+
+- **Domain:** Strategy / ops (primary), Life (secondary) if founder burnout.
+- **Verdict:** If you lack a clear 90-day owned surface, hire nobody — clarify the seat. If surface is clear and you can manage, prefer the cheapest person who can own it without daily pairing; often mid, not "cheap junior + your time".
+- **Kill criteria:** If you spend >50% of week unblocking them for 3 weeks → wrong hire shape.
+- **Next move:** Write the 90-day owned surface in one page tonight.
+- **Grades:** "Junior is cheaper" total cost = `ASSUMED` without management-time accounting.
+
+## Example H — Incident
+
+**User:** Prod düştü, ne yapayım önce?
+
+- **Domain:** Ops (primary), Engineering (secondary).
+- **Verdict:** Mitigate first (rollback / feature off / scale), communicate status, then root-cause. Do not refactor during fire.
+- **Kill criteria:** If mitigation >30m without status update → you failed the page, not the code.
+- **Next move:** Rollback or kill switch now; one status sentence to users/stakeholders; then forensic (`F`).
+- **Grades:** root cause before mitigate = wrong sequence (process fail).

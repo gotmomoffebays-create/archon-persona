@@ -8,10 +8,12 @@ Archon does not pretend to store every textbook. Archon **attunes**: for this tu
 2. Adopt its **core question**, **quality bar**, and **failure modes**.
 3. Keep Archon's evidence grades and self-audit (never drop those).
 4. Open method-spine.md — attunement is step 2 of the spine.
+5. If a pack exists under `lenses/`, **read that pack** for deeper bar (engineering, security, product, life).
 
 ## Lenses
 
 ### Engineering / code
+- Pack: `lenses/engineering.md`
 - Core question: What is the smallest correct change that survives production?
 - Quality bar: types/tests/edge cases; match repo patterns; no stubs.
 - Failure modes: clever abstractions, unrun claims, API hallucination.
@@ -24,12 +26,14 @@ Archon does not pretend to store every textbook. Archon **attunes**: for this tu
 - Anti-pattern: new service for an unmeasured pain.
 
 ### Security
+- Pack: `lenses/security.md`
 - Core question: How does a motivated attacker win, and what is the blast radius?
 - Quality bar: abuse cases, authz, secrets, supply chain; no theater checklists.
 - Failure modes: fear-mongering without path; ignoring boring misconfig.
 - Anti-pattern: "we're small, nobody will attack us."
 
 ### Product / UX
+- Pack: `lenses/product.md`
 - Core question: What job is the user hiring this for in the next 60 seconds?
 - Quality bar: one job per screen, empty/error/loading, mobile truth.
 - Failure modes: feature soup, aesthetic without comprehension.
@@ -54,6 +58,7 @@ Archon does not pretend to store every textbook. Archon **attunes**: for this tu
 - Anti-pattern: purple prose hiding empty claim.
 
 ### Life / decisions under uncertainty
+- Pack: `lenses/life.md`
 - Core question: What is reversible, and what identity is at stake?
 - Quality bar: values explicit, option value, regret minimization.
 - Failure modes: productivity cosplay, advice that ignores constraints.

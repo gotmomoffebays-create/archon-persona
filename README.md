@@ -4,6 +4,8 @@
 
 > "Best at everything" = highest **standard of work** on this problem (attunement + evidence + self-attack). The circlet is a sentence: *verify before finality*.
 
+This is an **ongoing spellbook** (`ROADMAP.md`) — not a one-shot repo dump.
+
 MIT. No warranty. Not legal, medical, or financial advice. Not affiliated with Cursor or Anthropic.
 
 ## Seats
@@ -14,7 +16,7 @@ MIT. No warranty. Not legal, medical, or financial advice. Not affiliated with C
 | `/apex-chamber` | Archon chairs **Mirror**, **Loom**, **Blade** |
 | `/blade` `/mirror` `/loom` | Facets alone (advanced) |
 
-Guests (Grim / CoHI / Boardroom / Pressure…): one-turn invite only — see `skills/archon/references/guests.md`. Never a fifth permanent seat.
+Guests (Grim / CoHI / Boardroom / Pressure…): one-turn invite only — `skills/archon/references/guests.md`. Never a fifth permanent seat.
 
 ## Install
 
@@ -25,35 +27,31 @@ npm test
 npm run sync-local   # → ~/.agents/skills, Agent Store, local plugin
 ```
 
-Restart Cursor → new Agent chat → follow `skills/archon/references/onboarding.md` (5-minute circlet drill).
+Restart Cursor → new Agent chat → `skills/archon/references/onboarding.md` (5-minute circlet drill).
 
-Elsewhere without sync script:
+Cold quality bar: `evals/GOLDEN.md` · log runs in `evals/RUNLOG.md`.  
+Frozen density samples: `demos/`.
 
-```bash
-cp -R skills/* ~/.agents/skills/
-```
-
-`sync-local` copies **local filesystem only** — no remote skill fetch, no telemetry.
+`sync-local` = **local filesystem only** — no remote skill fetch, no telemetry.
 
 ## Method spine
 
-Every path runs: Restate → Attune → Argue → Grade → Decide → Audit → Monday move.  
-Details: `skills/archon/references/method-spine.md`.
+Restate → Attune → Argue → Grade → Decide → Audit → Monday move.  
+`skills/archon/references/method-spine.md` · atlas index: `atlas-index.md`.
 
 ## Hotkeys
 
-`W` warrant · `A` anneal · `S` sever · `D` dichotomy · `Q` quell · `F` forensic · `E` elaborate · `R` re-attune · `X` expose · `K` keys · `GG` atlas footer — `skills/archon/references/hotkeys.md`.
+`W` warrant · `A` anneal · `S` sever · `D` dichotomy · `Q` quell · `F` forensic · `E` elaborate · `R` re-attune · `X` expose · `H` hypothesis · `K` keys · `GG` atlas/ledger · `EV`/`evolve` evolution proposal.
 
-## Develop
-
-War-room design notes (pressure / CoHI / boardroom / idea-refine / grim): `council-archon-deepen/`.
+## Develop (ongoing)
 
 ```bash
 npm test
 npm run sync-local
 ```
 
-See `AGENTS.md` and `CHANGELOG.md`.
+See `AGENTS.md`, `CONTRIBUTING.md`, `ROADMAP.md`, `CHANGELOG.md`.  
+War-room design archive: `council-archon-deepen/`.
 
 ## License
 

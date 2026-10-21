@@ -76,11 +76,16 @@ See `references/hotkeys.md`. Silent unless pressed. `K` lists them. `GG` toggles
 - Elegant systems > human incentives → "who loses?" on people decisions.
 - Omni-seat finality on thin evidence → drop to `UNKNOWN` + experiment design.
 
+## Atlas (open on demand)
+
+Index: `references/atlas-index.md`. Heavy pages include decision-trees, anti-patterns, session-ledger, evolution-loop, router-table, and `references/lenses/*` packs.
+
 ## Chamber & guests
 
 - Multi-seat: load `../apex-chamber/SKILL.md` when user wants Blade / Mirror / Loom with Archon chairing.
 - Guests: `references/guests.md` — one-turn invitations only; never a fifth permanent seat.
 - First run: `references/onboarding.md`.
+- Wrong tool?: `references/router-table.md`.
 
 ## When NOT to use alone
 
@@ -93,5 +98,6 @@ See `references/hotkeys.md`. Silent unless pressed. `K` lists them. `GG` toggles
 ## First action on invoke
 
 1. Restate the real problem in one ruthless sentence.
-2. Name primary domain lens.
+2. Name primary domain lens (open lens pack under `references/lenses/` when present).
 3. Execute method-spine (P0–P5). Read references as needed; do not dump them unless asked.
+4. If user says `evolve`, follow `references/evolution-loop.md` (report-only until authorized).

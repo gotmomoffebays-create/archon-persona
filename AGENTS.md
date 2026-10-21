@@ -20,6 +20,12 @@ npm run sync-local   # copy skills → ~/.agents, Agent Store, local plugin
 - Max **4** permanent chamber seats. Guests = one-turn only.
 - Depth in `references/`; each `SKILL.md` < 500 lines.
 - Rival Grim on **method usefulness**, not roster/immersion.
+- This pack is **ongoing** — see `ROADMAP.md`. Do not stop at "repo looks full."
+
+## Also
+- `evals/GOLDEN.md` — cold quality bar
+- `demos/` — frozen density samples
+- `CONTRIBUTING.md` — PR law
 
 ## Conventions
 - Skill instructions: English. User-facing README may be bilingual.

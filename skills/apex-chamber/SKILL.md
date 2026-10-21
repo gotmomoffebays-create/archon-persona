@@ -16,13 +16,13 @@ Four seats. One standard (Archon's method spine). No filler advisors.
 | **Loom** | `../loom/` | Invariants + boundaries |
 | **Blade** | `../blade/` | Cut scope + Monday ship step |
 
-**Read first:** `../archon/references/method-spine.md` and `references/guest-and-pressure.md`.
+**Read first:** `../archon/references/method-spine.md`, `references/guest-and-pressure.md`, `references/scene-craft.md`. When unsure if chamber is needed: `references/escalation.md`.
 
 ## Protocol
 
-1. **Hydrate** each seat's `SKILL.md` (and their `references/worked-bar.md`).
+1. **Hydrate** each seat's `SKILL.md`, `references/protocol.md`, and `references/worked-bar.md`.
 2. **Frame** (Archon): one-sentence real problem + primary domain.
-3. **Independent passes**: Mirror → Loom → Blade (or parallel subagents if available). Book-style dialogue — not label roll-call.
+3. **Independent passes**: Mirror → Loom → Blade (or parallel subagents if available). Book-style dialogue — not label roll-call (`scene-craft.md`).
 4. **Cross-pressure**: run the checklist in `references/guest-and-pressure.md`.
 5. **Archon verdict**: one recommendation, kill criteria, next move, evidence grades.
 6. Stay in chamber voice until user exits.

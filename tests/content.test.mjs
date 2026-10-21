@@ -1,4 +1,4 @@
-import { readFileSync, existsSync } from 'node:fs';
+import { readFileSync, existsSync, readdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import assert from 'node:assert/strict';
@@ -25,10 +25,10 @@ for (const s of seats) {
 }
 
 const archon = readFileSync(join(root, 'skills/archon/SKILL.md'), 'utf8');
-ok(/method-spine|P5|Domain Attunement/i.test(archon), 'archon protocols present');
 ok(/method-spine\.md/.test(archon), 'archon points at method-spine');
+ok(/atlas-index/.test(archon), 'archon points at atlas-index');
 
-const refs = [
+const archonRefs = [
   'domain-lenses.md',
   'self-audit.md',
   'hotkeys.md',
@@ -38,46 +38,70 @@ const refs = [
   'method-spine.md',
   'onboarding.md',
   'guests.md',
+  'decision-trees.md',
+  'anti-patterns.md',
+  'session-ledger.md',
+  'evolution-loop.md',
+  'router-table.md',
+  'atlas-index.md',
 ];
-for (const r of refs) {
+for (const r of archonRefs) {
   ok(existsSync(join(root, 'skills/archon/references', r)), `missing ref ${r}`);
 }
 
-for (const facet of ['blade', 'mirror', 'loom']) {
+for (const lens of ['engineering', 'security', 'product', 'life', 'strategy', 'ops']) {
   ok(
-    existsSync(join(root, 'skills', facet, 'references', 'worked-bar.md')),
-    `${facet} needs worked-bar`,
+    existsSync(join(root, 'skills/archon/references/lenses', `${lens}.md`)),
+    `lens pack ${lens}`,
   );
 }
+ok(/G7/i.test(readFileSync(join(root, 'evals/GOLDEN.md'), 'utf8')), 'GOLDEN has G7');
 
-ok(
-  existsSync(join(root, 'skills/apex-chamber/references/guest-and-pressure.md')),
-  'chamber guest-and-pressure',
-);
+for (const facet of ['blade', 'mirror', 'loom']) {
+  ok(existsSync(join(root, 'skills', facet, 'references', 'worked-bar.md')), `${facet} worked-bar`);
+  ok(existsSync(join(root, 'skills', facet, 'references', 'protocol.md')), `${facet} protocol`);
+}
+
+for (const f of ['guest-and-pressure.md', 'scene-craft.md', 'escalation.md']) {
+  ok(existsSync(join(root, 'skills/apex-chamber/references', f)), `chamber ${f}`);
+}
 
 const hotkeys = readFileSync(join(root, 'skills/archon/references/hotkeys.md'), 'utf8');
-for (const k of ['W', 'A', 'S', 'D', 'Q', 'F', 'K', 'GG']) {
+for (const k of ['W', 'A', 'S', 'D', 'Q', 'F', 'K', 'GG', 'H', 'EV']) {
   ok(new RegExp(`\\b${k}\\b`).test(hotkeys), `hotkey ${k}`);
 }
 
 const chamber = readFileSync(join(root, 'skills/apex-chamber/SKILL.md'), 'utf8');
 ok(/Mirror/i.test(chamber) && /Blade/i.test(chamber) && /Loom/i.test(chamber), 'chamber seats named');
-ok(/four|4 seats|Max four/i.test(chamber), 'four-seat cap stated');
-ok(
-  /Max four|four seats|Four seats/i.test(chamber) && /never a fifth|No fifth|not a fifth/i.test(chamber),
-  'four-seat law + fifth ban stated',
-);
+ok(/four|4 seats|Max four|Four seats/i.test(chamber), 'four-seat cap stated');
+ok(/never a fifth|No fifth|not a fifth/i.test(chamber), 'fifth ban stated');
+ok(/scene-craft/.test(chamber), 'chamber points at scene-craft');
 
 const spine = readFileSync(join(root, 'skills/archon/references/method-spine.md'), 'utf8');
 ok(/VERIFIED|INFERRED|ASSUMED|UNKNOWN/.test(spine), 'evidence ladder');
 ok(/RESTATE|ATTUNE|GRADE|AUDIT/i.test(spine), 'spine steps');
 
+const examples = readFileSync(join(root, 'skills/archon/references/worked-examples.md'), 'utf8');
+ok((examples.match(/^## Example /gm) || []).length >= 6, '≥6 worked examples');
+
 const readme = readFileSync(join(root, 'README.md'), 'utf8');
 ok(/method/i.test(readme) && /Grim/i.test(readme), 'README positioning vs Grim');
 ok(/MIT|no warranty|not.*advice/i.test(readme), 'README legal hygiene');
+ok(/ROADMAP|evals\/GOLDEN/i.test(readme), 'README points at ongoing work');
 
 ok(existsSync(join(root, 'LICENSE')), 'LICENSE');
+ok(existsSync(join(root, 'CONTRIBUTING.md')), 'CONTRIBUTING');
+ok(existsSync(join(root, 'ROADMAP.md')), 'ROADMAP');
+ok(existsSync(join(root, 'evals/GOLDEN.md')), 'GOLDEN evals');
+ok(existsSync(join(root, 'evals/RUNLOG.md')), 'RUNLOG');
+ok(existsSync(join(root, 'demos/solo-archon-session.md')), 'demo solo');
+ok(existsSync(join(root, 'demos/apex-chamber-session.md')), 'demo chamber');
+ok(existsSync(join(root, 'demos/guest-session.md')), 'demo guest');
+ok(existsSync(join(root, 'council-archon-deepen/verdict.md')), 'war-room verdict');
 ok(existsSync(join(root, '.cursor-plugin/plugin.json')), 'plugin.json');
-ok(existsSync(join(root, 'council-archon-deepen/verdict.md')), 'war-room verdict archived');
+
+// No accidental fifth seat skill folder
+const skillDirs = readdirSync(join(root, 'skills'));
+ok(skillDirs.length === 5, `exactly 5 skill dirs (got ${skillDirs.join(',')})`);
 
 console.log(`ok ${passed} checks`);
