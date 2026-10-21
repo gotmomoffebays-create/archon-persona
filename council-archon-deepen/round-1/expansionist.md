@@ -1,0 +1,7 @@
+Ship a Method Spine that turns Archon from “five named seats” into the default Cursor ritual for hard work. Put the undervalued asset in `skills/archon/references/`: a single `method-spine.md` that other seats must load — attunement checklist, evidence grades (claim / observed / verified), and a forced self-audit exit gate — and wire every SKILL.md to point at it in under fifty lines of orchestration. That is the Grim-class move: not more lore, a repeatable spell.
+
+The adjacent upside almost everyone undervalues is cross-domain transfer. Deepen `domain-lenses.md` into loadable packs that Blade/Mirror/Loom can invoke by hotkey, so one install makes Archon the METHOD seat across projects, not a cosplay folder on GitHub. Pair that with an `onboarding.md` that is a first-run drill — one real decision, all four Apex Chamber seats, grade the transcript — so “just opening a repo” becomes “you ran the chamber once.”
+
+Expand guest policy as optional invitations only: a thin guests template (invite, one-turn brief, dismiss) so Pressure/CoHI/Board can be summoned without a fifth permanent seat. Upside if this works: Archon becomes the host OS for elite pipelines, and every other pack is a guest card — daily use, not a bookmark.
+
+Do not add a sixth persona, a mega SKILL.md dump, fake omniscience tables, or a permanent fifth chamber seat. Depth lives in references and drills; roster stays four.

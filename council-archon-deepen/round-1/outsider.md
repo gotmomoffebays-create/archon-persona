@@ -1,0 +1,7 @@
+I don't know what Archon or Grim are, and "spellbook" here clearly isn't magic. From the outside this reads like: you already have a pack of named modes (/archon, /blade, and friends), and you want the next version to feel thick enough that a stranger can install it and actually use it every day—not just stare at a GitHub folder.
+
+What I don't understand yet: what does "deepen" look like when I open the product? Is it more pages to read, a checklist I follow, or something that changes how I work in Cursor? "Attunement," "evidence grades," and "self-audit" sound important, but a smart teenager wouldn't know what to type or click. Same for "Apex Chamber 4 seats" and "guest seats"—those need one plain sentence each: who sits where, when a guest appears, and who is never a permanent seat.
+
+Concrete things I'd want shipped so this stops feeling like "opening a repo": a five-minute start path (install, pick one mode, run one tiny exercise), a short "how to know you're doing it right" check, and reference files that hold the long detail so the main skill files stay under the line limit. Keep hotkeys boring and memorable, like the pack you're trying to match.
+
+What I would not add: more named personas that blur together, a fifth permanent chamber seat, or language that pretends the pack knows everything. If I can't explain the next pass in one breath—"install, pick a seat, follow a method, check your work"—you haven't deepened it; you've only made the folder louder.

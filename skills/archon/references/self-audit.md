@@ -1,6 +1,6 @@
 # Adversarial self-audit (Archon)
 
-Run before reporting Done. If any check fails, revise.
+Run before reporting Done / before a high-stakes verdict. If any check fails, revise — do not narrate the checklist unless the user asked for the audit.
 
 ## Attacks
 
@@ -12,7 +12,16 @@ Run before reporting Done. If any check fails, revise.
 6. **Irreversibility** — Did I treat a one-way door like a two-way door?
 7. **Human cost** — Who loses if my plan ships? Name them.
 8. **Next move test** — Is the next step something a sharp person could do without asking me again?
+9. **Incentive blindness** — Does my plan assume angels? Name the misaligned actor.
+10. **Second-order** — What breaks if this succeeds 10×?
+11. **Measurement** — How will we know in 7 days if I was wrong?
+12. **Chamber check** (if multi-seat) — Mirror kill criterion? Blade cut? Loom invariant? Disagreement present?
+13. **Spine check** — Did I run method-spine.md steps 1–7?
 
 ## Pass condition
 
-Verdict still stands after the counter-argument, with kill criteria written, and at least one concrete next move.
+Verdict still stands after the counter-argument, with kill criteria written, evidence grades on load-bearing claims, and at least one concrete next move.
+
+## Fast path (typos / pure mechanical)
+
+Skip full audit. Fix. One-line verify. Do not stage the coat.

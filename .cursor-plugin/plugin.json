@@ -1,8 +1,8 @@
 {
   "name": "archon-persona",
   "displayName": "Archon — Apex Persona",
-  "version": "1.0.0",
-  "description": "Elite polymath persona seat: domain attunement, evidence grades, adversarial self-audit.",
+  "version": "1.2.0",
+  "description": "Archon apex METHOD seat + Apex Chamber. Method spine, evidence grades, hotkeys, guests invite-only, self-audit.",
   "author": {
     "name": "gotmomoffebays-create",
     "url": "https://github.com/gotmomoffebays-create"

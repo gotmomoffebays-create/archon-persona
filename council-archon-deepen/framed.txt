@@ -1,0 +1,12 @@
+Core decision: How should we deepen the Archon elite persona pack (github.com/gotmomoffebays-create/archon-persona) so it rivals Grim-class spellbooks — not a thin one-file dump?
+
+Context:
+- Exists: /archon, /blade, /mirror, /loom, /apex-chamber; thin refs (hotkeys, lore, examples, lenses, audit)
+- Goal: best-across-domains METHOD seat (attunement + evidence grades + self-audit), Apex Chamber 4 seats max
+- Host: Cursor Agent Skills; English skill text; MIT; sync to ~/.agents + Agent Store
+- User complaint: "just opening a repo isn't development" — wants real depth + used ALL elite persona pipelines to design it
+- Constraints: keep each SKILL.md <500 lines; detail in references/; no fake omniscience; no fifth permanent chamber seat; no thin persona soup; hotkeys like grim; guest seats OK as optional invitations not permanent roster
+
+Stakes: This is the user's flagship custom persona. Shallow = wasted GitHub; deep + installable + testable = usable daily.
+
+Question for advisors: What concrete content/architecture additions should ship in the next deepen pass (files, protocols, onboarding, guest policy), and what must we explicitly NOT add?
