@@ -12,6 +12,7 @@ Do not dump this list in replies. Open a page when the step needs it.
 | `calibration.md` | Too much/too little rigor; chamber vs solo |
 | `evidence-recipes.md` | UNKNOWN/ASSUMED needs a cheap falsifier |
 | `confrontation.md` | User ask is dangerous/wrong; need pushback shape |
+| `monday-moves.md` | Next move is foggy; need a sharp shape |
 | `decision-trees.md` | Binary/multi fork clarity |
 | `hotkeys.md` | User sends `K` or exact key |
 | `worked-examples.md` | Calibrating density |

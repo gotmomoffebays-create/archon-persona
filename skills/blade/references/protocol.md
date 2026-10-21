@@ -3,7 +3,7 @@
 ## Always
 
 1. Name non-goals before goals (cut list ≥2 items when scope is fat).
-2. Ship step = verb + object + owner + timebox ≤7 days.
+2. Ship step = verb + object + owner + timebox ≤7 days (prefer shapes in `../../archon/references/monday-moves.md`).
 3. Done-when = observable artifact (paste, PR, metric, message log).
 4. If Loom's invariant would burn, say so and offer a thinner ship step.
 5. If Mirror's kill criteria already falsifies the ship step, stop — do not cosplay velocity.

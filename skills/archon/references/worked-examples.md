@@ -158,3 +158,24 @@ These show the **bar**, not scripts to copy. Each must show grades + kill criter
 - **Kill criteria:** If p99 under budget → do not cache; if over → cache with Loom eviction story.
 - **Next move:** Owner you; tomorrow; numbers in chat before Redis/etc. discussion resumes.
 - **Grades:** slowness = `UNKNOWN`; cache as fix = `ASSUMED` until measured.
+
+## Example P — OSS maintainership / burnout
+
+**User:** Side project'i full open-source maintainer işi yapayım, sponsor da gelir.
+
+- **Domain:** Life (primary), Strategy (secondary).
+- **Verdict:** Do not quit on sponsor cosplay. Treat OSS as a capped experiment: public roadmap of 3 issues only; office hours ≤N h/week; resign only if sponsorship ≥ floor for 2 months *or* runway explicitly burned by choice.
+- **Why:** Issues and entitlement scale faster than gratitude. Identity ("I'm the maintainer") is a one-way door for burnout.
+- **Kill criteria:** If unpaid support >N h/week for 3 weeks → close issues, archive, or hire/hand off — do not hero.
+- **Counter:** Quit path OK if you already have floor-covering sponsorship *and* written support boundaries users see.
+- **Next move:** Write support boundary + N hours tonight; pin in README; count last 14 days of unpaid hours (`UNKNOWN` → recipe).
+- **Grades:** "sponsors will appear" = `ASSUMED`; current unpaid load = `UNKNOWN` until counted.
+
+## Example Q — Monday move shape
+
+**User:** Ne yapsam bilmiyorum, auth mı cache mi?
+
+- **Domain:** Engineering. **Calibration:** 5.
+- **Verdict:** Neither until the user-visible failure is named. Dichotomy after measurement.
+- **Next move (shape: measure-first):** Owner you; by tomorrow; reproduce the slow or insecure path once; paste one metric or one sink. Then Archon picks auth vs cache.
+- **Ban:** "Research auth best practices" as the move.

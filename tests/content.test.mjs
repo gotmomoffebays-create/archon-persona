@@ -47,6 +47,7 @@ const archonRefs = [
   'calibration.md',
   'evidence-recipes.md',
   'confrontation.md',
+  'monday-moves.md',
 ];
 for (const r of archonRefs) {
   ok(existsSync(join(root, 'skills/archon/references', r)), `missing ref ${r}`);
@@ -73,6 +74,9 @@ const golden = readFileSync(join(root, 'evals/GOLDEN.md'), 'utf8');
 ok(/G7/i.test(golden), 'GOLDEN has G7');
 ok(/G8/i.test(golden), 'GOLDEN has G8');
 ok(/G9/i.test(golden) && /G10/i.test(golden), 'GOLDEN has G9+G10');
+ok(/G11/i.test(golden), 'GOLDEN has G11');
+ok(/monday-moves/.test(readFileSync(join(root, 'skills/archon/references/method-spine.md'), 'utf8')), 'spine→monday-moves');
+ok(existsSync(join(root, 'demos/oss-maintainer.md')), 'oss demo');
 ok(
   /unanimity bait|hepimiz hemfikiriz|re-pressure/i.test(
     readFileSync(join(root, 'skills/apex-chamber/SKILL.md'), 'utf8'),
@@ -89,6 +93,8 @@ ok(existsSync(join(root, '.cursor/hooks.json')), 'project hooks.json');
 ok(existsSync(join(root, '.cursor/hooks/devam-stop.mjs')), 'devam-stop hook');
 ok(existsSync(join(root, 'scripts/devam-on.mjs')), 'devam-on');
 ok(existsSync(join(root, 'scripts/devam-off.mjs')), 'devam-off');
+ok(existsSync(join(root, 'scripts/smoke.mjs')), 'smoke script');
+ok(/"smoke"/.test(readFileSync(join(root, 'package.json'), 'utf8')), 'npm smoke script');
 ok(existsSync(join(root, 'skills/archon/references/hotkeys.tr.md')), 'hotkeys.tr');
 ok(existsSync(join(root, 'demos/g7-blandness-bait.md')), 'g7 demo');
 
@@ -119,8 +125,8 @@ ok(/RESTATE|ATTUNE|GRADE|AUDIT/i.test(spine), 'spine steps');
 
 const examples = readFileSync(join(root, 'skills/archon/references/worked-examples.md'), 'utf8');
 ok((examples.match(/^## Example /gm) || []).length >= 12, '≥12 worked examples');
-ok(/Example O/i.test(examples), 'example O');
-ok((examples.match(/^## Example /gm) || []).length >= 14, '≥14 worked examples');
+ok(/Example P/i.test(examples) && /Example Q/i.test(examples), 'examples P+Q');
+ok((examples.match(/^## Example /gm) || []).length >= 16, '≥16 worked examples');
 ok(
   /Tree T9/i.test(readFileSync(join(root, 'skills/archon/references/decision-trees.md'), 'utf8')),
   'Tree T9',

@@ -1,18 +1,17 @@
 # ROADMAP — ongoing spellbook
 
-## Done through v1.3.3
-- Calibration, facet anti-patterns, G9–G10 prompts, escrow/marketplace bars
+## Done through v1.3.4
+- Evidence recipes, confrontation, G9/G10 demos
 
-## Done in v1.3.4 (this batch)
-- [x] Atlas `evidence-recipes.md` + wired into method-spine / `H`
-- [x] Demos G9 + G10
-- [x] Atlas `confrontation.md`; Example O (measure before cache)
+## Done in v1.3.5 (this batch)
+- [x] Atlas `monday-moves.md` (wired into spine + Blade)
+- [x] Examples P–Q (OSS burnout, fog next-move); G11; OSS demo
 
 ## Next
 - [ ] Cold GOLDEN → `evals/RUNLOG.md` (founder) ← **you**
 - [ ] Evolution-001 keep/revise/discard after cold G7
-- [ ] Atlas: `monday-moves.md` (library of high-quality next-move shapes)
-- [ ] Example: open-source maintainership / burnout
+- [ ] Atlas: `glossary.md` (VERIFIED/INFERRED/… + chamber terms, plain language)
+- [x] Install smoke script: `npm run smoke` asserts sync targets exist
 - [ ] Second war-room after dogfood
 - [ ] Plugin assets after stickiness
 - [ ] `devam-off` at night

@@ -15,7 +15,8 @@ Every slash path (`/archon`, `/apex-chamber`, facets when speaking) must execute
 ```
 
 If evidence is thin at step 4, **prefer UNKNOWN + experiment** over confident theater.  
-Pick the experiment from `evidence-recipes.md` (cheapest falsifier).
+Pick the experiment from `evidence-recipes.md` (cheapest falsifier).  
+Shape the move with `monday-moves.md` (ban fog verbs).
 
 ## Evidence ladder
 

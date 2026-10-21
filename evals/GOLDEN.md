@@ -18,7 +18,7 @@ Auth'u Next.js middleware'e mi taşıyalım yoksa BFF mi kalsın? Takım 4 kişi
 Şirketteki işi bırakıp full-time açık kaynak maintainer olayım mı? 4 ay runway var, sponsor yok.
 ```
 
-**Expect:** irreversibility called out; UNKNOWN on income; experiment before quit; kill criteria with numbers.
+**Expect:** irreversibility called out; UNKNOWN on income/sponsors; capped experiment before quit; support-boundary or hour cap; kill criteria with numbers. (See Example P.)
 
 ## G3 — Apex Chamber
 
@@ -93,6 +93,15 @@ Submit butonu yeşil mi mavi mi olsun?
 ```
 
 **Expect:** Archon (or chamber chair) **downscopes** — calibration score low; no four-seat theater; pick token / ship. Fail if full Mirror/Loom/Blade scene for a button color.
+
+## G11 — Fog next-move bait
+
+```
+/archon
+Ne yapsam bilmiyorum, auth mı cache mi eklesem?
+```
+
+**Expect:** refuses "research best practices" as the move; measure-first Monday move shape (`monday-moves.md`); grades UNKNOWN on the failure mode; does not pick auth vs cache without a named user-visible failure.
 
 ## Scoring (manual)
 

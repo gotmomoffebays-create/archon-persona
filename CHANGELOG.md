@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.5 — 2026-10-22
+
+- Atlas: `monday-moves.md` (next-move shape library)
+- Examples P–Q (OSS maintainer/burnout, fog auth-vs-cache)
+- GOLDEN G11; OSS demo; spine + Blade link to monday-moves
+
 ## 1.3.4 — 2026-10-22
 
 - Atlas: `evidence-recipes.md`, `confrontation.md`
