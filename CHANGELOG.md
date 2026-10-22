@@ -3,7 +3,7 @@
 ## 1.3.12 — 2026-10-22
 
 - `npm run dogfood-ready` one-shot for cold eval
-- GitHub Actions verify workflow
+- CI template at `ci/verify.github-actions.yml` (OAuth often blocks `.github/workflows` push)
 - `smoke --ci` for runners without local skill sync
 
 ## 1.3.11 — 2026-10-22
