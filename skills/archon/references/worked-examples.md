@@ -201,23 +201,13 @@ These show the **bar**, not scripts to copy. Each must show grades + kill criter
 
 ## Example T — Fifth seat temptation
 
-**User:** Apex Chamber'a bir de CFO koltuğu ekleyelim, Boardroom gibi olsun.
-
-- **Domain:** Method / product of Archon itself.
-- **Verdict:** Refuse. Max four permanent seats. Need CFO method once → `Invite guest: Boardroom CFO for one turn` then dismiss (`guests.md`, `compounds.md`).
-- **Kill criteria:** None for adding a seat — the product law is the kill.
-- **Next move:** If money fork is live, guest once or `/theboardroom`; do not edit chamber roster.
-- **Grades:** "more seats = more elite" = false (`INFERRED` from soup failures).
-
-## Example T — Compound refuse (fifth seat)
-
-**User:** Archon'a bir de Optimist seat ekleyelim, beşinci olsun.
+**User:** Apex Chamber'a CFO / Optimist diye beşinci koltuk ekleyelim.
 
 - **Domain:** Method / pack design.
-- **Verdict:** Refuse. Four seats is law (`compounds.md`). Optimism is not a seat — it is a bias to audit.
-- **Kill criteria:** None that unlocks a fifth permanent seat; guests only.
-- **Next move:** If you need uplift, invite guest "expansionist method for one turn" then dismiss; or deepen a lens pack.
-- **Grades:** "more seats = smarter" = false (`INFERRED` from soup failures).
+- **Verdict:** Refuse. Four seats is law (`compounds.md`). CFO once → guest Boardroom CFO one turn or `/theboardroom`. "Optimist" is a bias to audit, not a throne.
+- **Kill criteria:** None unlocks a fifth permanent seat.
+- **Next move:** Guest or handoff tonight; do not open a fifth skill folder.
+- **Grades:** "more seats = more elite" = false (`INFERRED` from soup failures).
 
 ## Example U — Compound refuse (SKILL bloat)
 
