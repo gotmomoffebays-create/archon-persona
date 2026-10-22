@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.11 — 2026-10-22
+
+- `npm run verify` full local gate
+- `tests/dogfood.test.mjs` (sheet generation + G1/G3/G7 parse)
+- smoke runs all three test files
+
 ## 1.3.10 — 2026-10-22
 
 - Dogfood enablement: `npm run dogfood` → `evals/DOGFOOD-SHEET.md`

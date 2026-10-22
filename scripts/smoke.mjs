@@ -10,10 +10,10 @@ import { fileURLToPath } from 'node:url';
 import { dirname } from 'node:path';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
-const test = spawnSync(process.execPath, [join(root, 'tests/content.test.mjs')], {
-  stdio: 'inherit',
-});
-if (test.status !== 0) process.exit(test.status ?? 1);
+for (const rel of ['tests/content.test.mjs', 'tests/demos.test.mjs', 'tests/dogfood.test.mjs']) {
+  const test = spawnSync(process.execPath, [join(root, rel)], { stdio: 'inherit' });
+  if (test.status !== 0) process.exit(test.status ?? 1);
+}
 
 const seats = ['archon', 'blade', 'mirror', 'loom', 'apex-chamber'];
 const agents = join(homedir(), '.agents', 'skills');

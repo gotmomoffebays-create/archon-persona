@@ -24,8 +24,9 @@ Guests (Grim / CoHI / Boardroom / Pressure…): one-turn invite only — `skills
 git clone https://github.com/gotmomoffebays-create/archon-persona.git
 cd archon-persona
 npm test
+npm run verify       # tests + dogfood sheet + stats + smoke
 npm run sync-local   # → ~/.agents/skills, Agent Store, local plugin
-npm run smoke
+npm run dogfood      # cold-eval paste sheet
 npm run stats        # refresh SPELLBOOK-SIZE.md
 ```
 

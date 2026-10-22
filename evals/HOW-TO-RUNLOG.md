@@ -4,7 +4,7 @@ Founder dogfood — do this once per sync SHA you care about.
 
 ## Steps
 
-1. `cd` archon-persona → `npm test && npm run sync-local && npm run smoke`
+1. `cd` archon-persona → `npm run verify` (or `npm test && npm run sync-local && npm run smoke`)
 2. Generate paste sheet: `npm run dogfood` (writes `evals/DOGFOOD-SHEET.md`; default G1+G3+G7).  
    All prompts: `npm run dogfood -- all`
 3. **Restart Cursor** (or new Agent chat) so skills reload.
