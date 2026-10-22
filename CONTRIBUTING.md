@@ -30,6 +30,8 @@ npm run sync-local   # optional, this machine
 - Lore-only dumps with no eval/test hook
 - SKILL.md bloat past 500 lines
 
+See `skills/archon/references/compounds.md` for the full refuse list.
+
 ## Evolution
 
 Propose mutations via `evolution-loop.md` shape; apply only with maintainer OK.

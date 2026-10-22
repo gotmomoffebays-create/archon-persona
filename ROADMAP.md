@@ -1,17 +1,18 @@
 # ROADMAP — ongoing spellbook
 
-## Done through v1.3.5
-- monday-moves, OSS burnout, smoke script, G11
+## Done through v1.3.6
+- glossary, writing lens, RFC spray
 
-## Done in v1.3.6 (this batch)
-- [x] Atlas `glossary.md` + onboarding pointer
-- [x] Lens `writing.md`; Examples R–S; G12; RFC demo
+## Done in v1.3.7 (this batch)
+- [x] Atlas `compounds.md` (anti-bloat / refuse list)
+- [x] `evals/HOW-TO-RUNLOG.md`; Example T / G13 / fifth-seat demo
+- [x] Evolution + CONTRIBUTING point at compounds
 
 ## Next
-- [ ] Cold GOLDEN → `evals/RUNLOG.md` (founder) ← **you**
+- [ ] Cold GOLDEN → `evals/RUNLOG.md` (founder) ← **you** — follow HOW-TO-RUNLOG.md
 - [ ] Evolution-001 keep/revise/discard after cold G7
-- [ ] Atlas: `compounds.md` (what Archon refuses to compound — anti-bloat rules)
-- [ ] Eval runner note: how to paste RUNLOG from a cold chat
+- [ ] Atlas: `prompts-cheatsheet.md` (copy-paste invoke lines TR/EN)
+- [ ] Count LOC / file inventory in README "spellbook size" (optional vanity OK if honest)
 - [ ] Second war-room after dogfood
 - [ ] Plugin assets after stickiness
 - [ ] `devam-off` at night

@@ -29,8 +29,8 @@ npm run sync-local   # → ~/.agents/skills, Agent Store, local plugin
 
 Restart Cursor → new Agent chat → `skills/archon/references/onboarding.md` (5-minute circlet drill).
 
-Cold quality bar: `evals/GOLDEN.md` · log runs in `evals/RUNLOG.md`.  
-Frozen density samples: `demos/`.
+Cold quality bar: `evals/GOLDEN.md` · how to log: `evals/HOW-TO-RUNLOG.md` · log: `evals/RUNLOG.md`.  
+Frozen density samples: `demos/`. Anti-bloat law: `skills/archon/references/compounds.md`.
 
 `sync-local` = **local filesystem only** — no remote skill fetch, no telemetry.
 

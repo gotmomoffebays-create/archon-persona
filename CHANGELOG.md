@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.7 — 2026-10-22
+
+- Atlas: `compounds.md` (what never to grow)
+- `evals/HOW-TO-RUNLOG.md` for cold dogfood
+- Example T / G13 / fifth-seat refuse demo; CONTRIBUTING + evolution link compounds
+
 ## 1.3.6 — 2026-10-22
 
 - Atlas: `glossary.md` (plain-language grades + chamber terms)

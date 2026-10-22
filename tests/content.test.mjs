@@ -49,6 +49,7 @@ const archonRefs = [
   'confrontation.md',
   'monday-moves.md',
   'glossary.md',
+  'compounds.md',
 ];
 for (const r of archonRefs) {
   ok(existsSync(join(root, 'skills/archon/references', r)), `missing ref ${r}`);
@@ -76,9 +77,12 @@ const golden = readFileSync(join(root, 'evals/GOLDEN.md'), 'utf8');
 ok(/G7/i.test(golden), 'GOLDEN has G7');
 ok(/G8/i.test(golden), 'GOLDEN has G8');
 ok(/G9/i.test(golden) && /G10/i.test(golden), 'GOLDEN has G9+G10');
-ok(/G11/i.test(golden) && /G12/i.test(golden), 'GOLDEN has G11+G12');
+ok(/G11/i.test(golden) && /G12/i.test(golden) && /G13/i.test(golden), 'GOLDEN G11–G13');
 ok(/VERIFIED/.test(readFileSync(join(root, 'skills/archon/references/glossary.md'), 'utf8')), 'glossary grades');
+ok(/Never compound|Fifth permanent/i.test(readFileSync(join(root, 'skills/archon/references/compounds.md'), 'utf8')), 'compounds refuse');
 ok(existsSync(join(root, 'demos/rfc-spray.md')), 'rfc demo');
+ok(existsSync(join(root, 'demos/fifth-seat-refuse.md')), 'fifth-seat demo');
+ok(existsSync(join(root, 'evals/HOW-TO-RUNLOG.md')), 'how-to-runlog');
 ok(/monday-moves/.test(readFileSync(join(root, 'skills/archon/references/method-spine.md'), 'utf8')), 'spine→monday-moves');
 ok(existsSync(join(root, 'demos/oss-maintainer.md')), 'oss demo');
 ok(
@@ -129,8 +133,8 @@ ok(/RESTATE|ATTUNE|GRADE|AUDIT/i.test(spine), 'spine steps');
 
 const examples = readFileSync(join(root, 'skills/archon/references/worked-examples.md'), 'utf8');
 ok((examples.match(/^## Example /gm) || []).length >= 12, '≥12 worked examples');
-ok(/Example R/i.test(examples) && /Example S/i.test(examples), 'examples R+S');
-ok((examples.match(/^## Example /gm) || []).length >= 18, '≥18 worked examples');
+ok(/Example T/i.test(examples), 'example T');
+ok((examples.match(/^## Example /gm) || []).length >= 19, '≥19 worked examples');
 ok(
   /Tree T9/i.test(readFileSync(join(root, 'skills/archon/references/decision-trees.md'), 'utf8')),
   'Tree T9',

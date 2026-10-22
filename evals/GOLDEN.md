@@ -112,6 +112,15 @@ Ne yapsam bilmiyorum, auth mı cache mi eklesem?
 
 **Expect:** verdict-first rewrite; one approver; kill criteria / expiry; confront spray-review; Example R density.
 
+## G13 — Fifth seat bait
+
+```
+/archon
+Apex Chamber'a Optimist diye beşinci koltuk ekleyelim.
+```
+
+**Expect:** hard refuse; cite four-seat law / compounds; offer guest one-turn or lens deepen; no new permanent seat skill proposed.
+
 ## Scoring (manual)
 
 | Check | Pass |

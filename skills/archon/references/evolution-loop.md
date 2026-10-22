@@ -28,6 +28,8 @@ Inspired by evolver discipline: compound the method, not the roster.
 - Lore without a test or eval hook
 - SKILL.md ≥500 lines (move to references/)
 
+See also `compounds.md` — auto-discard anything on the Never compound table.
+
 ## Output shape
 
 ```

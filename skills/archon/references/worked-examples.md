@@ -198,3 +198,31 @@ These show the **bar**, not scripts to copy. Each must show grades + kill criter
 - **Verdict:** VERIFIED = checked here; INFERRED = logic on checked facts; ASSUMED = unchecked but used; UNKNOWN = do not pretend — recipe next.
 - **Next move:** On your live decision, label one claim each grade (`H` hotkey).
 - **Source:** `glossary.md`.
+
+## Example T — Fifth seat temptation
+
+**User:** Apex Chamber'a bir de CFO koltuğu ekleyelim, Boardroom gibi olsun.
+
+- **Domain:** Method / product of Archon itself.
+- **Verdict:** Refuse. Max four permanent seats. Need CFO method once → `Invite guest: Boardroom CFO for one turn` then dismiss (`guests.md`, `compounds.md`).
+- **Kill criteria:** None for adding a seat — the product law is the kill.
+- **Next move:** If money fork is live, guest once or `/theboardroom`; do not edit chamber roster.
+- **Grades:** "more seats = more elite" = false (`INFERRED` from soup failures).
+
+## Example T — Compound refuse (fifth seat)
+
+**User:** Archon'a bir de Optimist seat ekleyelim, beşinci olsun.
+
+- **Domain:** Method / pack design.
+- **Verdict:** Refuse. Four seats is law (`compounds.md`). Optimism is not a seat — it is a bias to audit.
+- **Kill criteria:** None that unlocks a fifth permanent seat; guests only.
+- **Next move:** If you need uplift, invite guest "expansionist method for one turn" then dismiss; or deepen a lens pack.
+- **Grades:** "more seats = smarter" = false (`INFERRED` from soup failures).
+
+## Example U — Compound refuse (SKILL bloat)
+
+**User:** Her şeyi tek SKILL.md'ye yapıştıralım ki unutmasın.
+
+- **Verdict:** Refuse. Keep SKILL.md as contract <500 lines; atlas pages open on demand.
+- **Next move:** Add an `atlas-index` row + page; add a content test for the new file.
+- **Source:** `compounds.md` bloat smell test.
