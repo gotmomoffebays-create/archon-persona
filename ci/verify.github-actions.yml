@@ -1,3 +1,5 @@
+# Copy to: .github/workflows/verify.yml
+# (Requires a GitHub token with `workflow` scope to push under .github/workflows/)
 name: verify
 
 on:

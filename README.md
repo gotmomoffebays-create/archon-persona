@@ -31,7 +31,7 @@ npm run dogfood       # cold-eval paste sheet only
 npm run stats         # refresh SPELLBOOK-SIZE.md
 ```
 
-CI: `.github/workflows/verify.yml` runs `npm test` + `smoke --ci` on push/PR.
+CI template: `ci/verify.github-actions.yml` — copy to `.github/workflows/verify.yml` when your GitHub token has the `workflow` scope (OAuth apps often lack it).
 
 Restart Cursor → new Agent chat → `skills/archon/references/onboarding.md` (5-minute circlet drill).  
 Copy-paste invokes: `prompts-cheatsheet.md` · Türkçe: `prompts-cheatsheet.tr.md`.

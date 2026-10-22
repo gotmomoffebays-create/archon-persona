@@ -5,7 +5,7 @@
 
 ## Done in v1.3.12 (tooling)
 - [x] `npm run dogfood-ready` (verify → sync → sheet → human steps)
-- [x] GitHub Actions `verify.yml` (CI: test + dogfood + stats + smoke --ci)
+- [x] CI template `ci/verify.github-actions.yml` (copy to `.github/workflows/` when token allows)
 - [x] smoke `--ci` skips ~/.agents check
 
 ## Next (founder — still blocking)
