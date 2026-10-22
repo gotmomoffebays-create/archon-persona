@@ -216,3 +216,11 @@ These show the **bar**, not scripts to copy. Each must show grades + kill criter
 - **Verdict:** Refuse. Keep SKILL.md as contract <500 lines; atlas pages open on demand.
 - **Next move:** Add an `atlas-index` row + page; add a content test for the new file.
 - **Source:** `compounds.md` bloat smell test.
+
+## Example V — Cheatsheet invoke
+
+**User:** Archon'u nasıl çağıracağımı unuttum, yapıştırayım.
+
+- **Verdict:** Point at `prompts-cheatsheet.md`; for high stakes use `/apex-chamber` with context; for money guest CFO once.
+- **Next move:** Paste solo or chamber block; run circlet drill from `onboarding.md`.
+- **Ban:** Starting with a fifth-seat request.

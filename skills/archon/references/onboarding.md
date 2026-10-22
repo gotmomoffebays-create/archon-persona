@@ -8,9 +8,10 @@ Goal: install → one graded answer → prove the spine works. Not a tour of fol
 cd /path/to/archon-persona
 npm test
 npm run sync-local
+npm run smoke
 ```
 
-Restart Cursor. New Agent chat.
+Restart Cursor. New Agent chat. Paste lines from `prompts-cheatsheet.md` if useful.
 
 ## Circlet drill (solo)
 

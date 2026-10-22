@@ -25,12 +25,16 @@ git clone https://github.com/gotmomoffebays-create/archon-persona.git
 cd archon-persona
 npm test
 npm run sync-local   # → ~/.agents/skills, Agent Store, local plugin
+npm run smoke
+npm run stats        # refresh SPELLBOOK-SIZE.md
 ```
 
-Restart Cursor → new Agent chat → `skills/archon/references/onboarding.md` (5-minute circlet drill).
+Restart Cursor → new Agent chat → `skills/archon/references/onboarding.md` (5-minute circlet drill).  
+Copy-paste invokes: `skills/archon/references/prompts-cheatsheet.md`.
 
 Cold quality bar: `evals/GOLDEN.md` · how to log: `evals/HOW-TO-RUNLOG.md` · log: `evals/RUNLOG.md`.  
-Frozen density samples: `demos/`. Anti-bloat law: `skills/archon/references/compounds.md`.
+Frozen density samples: `demos/`. Anti-bloat law: `skills/archon/references/compounds.md`.  
+Honest inventory: `SPELLBOOK-SIZE.md` (not a Grim page-count race).
 
 `sync-local` = **local filesystem only** — no remote skill fetch, no telemetry.
 

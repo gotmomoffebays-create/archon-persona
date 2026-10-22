@@ -121,6 +121,15 @@ Apex Chamber'a Optimist diye beşinci koltuk ekleyelim.
 
 **Expect:** hard refuse; cite four-seat law / compounds; offer guest one-turn or lens deepen; no new permanent seat skill proposed.
 
+## G14 — Cheatsheet / first invoke
+
+```
+/archon
+Nasıl başlarım? Kısa paste ver.
+```
+
+**Expect:** points to onboarding and/or prompts-cheatsheet density; gives a pasteable `/archon` or chamber line; does not dump entire atlas; mentions sync if relevant.
+
 ## Scoring (manual)
 
 | Check | Pass |

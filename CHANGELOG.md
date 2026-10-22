@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.8 — 2026-10-22
+
+- Atlas: `prompts-cheatsheet.md` (TR/EN paste invokes)
+- `npm run stats` → `SPELLBOOK-SIZE.md`; README inventory pointer
+- Example V / G14 / cheatsheet-start demo
+
 ## 1.3.7 — 2026-10-22
 
 - Atlas: `compounds.md` (what never to grow)
