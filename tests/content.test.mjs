@@ -120,6 +120,8 @@ ok(/"dogfood"/.test(readFileSync(join(root, 'package.json'), 'utf8')), 'npm dogf
 ok(existsSync(join(root, 'scripts/verify.mjs')), 'verify script');
 ok(/"verify"/.test(readFileSync(join(root, 'package.json'), 'utf8')), 'npm verify script');
 ok(existsSync(join(root, 'scripts/dogfood-ready.mjs')), 'dogfood-ready script');
+ok(existsSync(join(root, 'scripts/await-dogfood.mjs')), 'await-dogfood script');
+ok(existsSync(join(root, 'FOUNDER.md')), 'FOUNDER.md');
 ok(
   existsSync(join(root, 'ci/verify.github-actions.yml')),
   'CI workflow template (copy to .github/workflows when token has workflow scope)',

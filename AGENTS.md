@@ -8,6 +8,7 @@ Elite apex polymath persona + Apex Chamber (Archon, Blade, Mirror, Loom) for Cur
 npm test
 npm run verify        # full local gate
 npm run dogfood-ready # verify + sync + dogfood sheet + human banner
+npm run await-dogfood # exit 0 only after scored RUNLOG (founder)
 npm run sync-local    # copy skills → ~/.agents, Agent Store, local plugin
 npm run dogfood       # print/write cold GOLDEN paste sheet (G1 G3 G7)
 npm run devam-on     # stop-hook injects "devam" after each turn (max 40)

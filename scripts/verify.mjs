@@ -18,6 +18,7 @@ function run(label, args) {
 run('test', [join(root, 'tests/content.test.mjs')]);
 run('demos', [join(root, 'tests/demos.test.mjs')]);
 run('dogfood-parse', [join(root, 'tests/dogfood.test.mjs')]);
+run('await-dogfood-gate', [join(root, 'tests/await-dogfood.test.mjs')]);
 run('dogfood sheet', [join(root, 'scripts/dogfood-print.mjs')]);
 run('stats', [join(root, 'scripts/spellbook-stats.mjs')]);
 run('smoke', [join(root, 'scripts/smoke.mjs')]); // local: requires sync-local once

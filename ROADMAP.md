@@ -1,22 +1,21 @@
 # ROADMAP — ongoing spellbook
 
-## Done through v1.3.11
-- verify gate, dogfood parse tests
+## Done through v1.3.12
+- dogfood-ready, CI template, smoke --ci
 
-## Done in v1.3.12 (tooling)
-- [x] `npm run dogfood-ready` (verify → sync → sheet → human steps)
-- [x] CI template `ci/verify.github-actions.yml` (copy to `.github/workflows/` when token allows)
-- [x] smoke `--ci` skips ~/.agents check
+## Done in v1.3.13 (founder gate tooling)
+- [x] `FOUNDER.md` — only-you checklist
+- [x] `npm run await-dogfood` — fails until RUNLOG scored
+- [x] test that await-dogfood fails closed pre-dogfood
 
-## Next (founder — still blocking)
-- [ ] `npm run dogfood-ready` → new Agent chat → fill `evals/RUNLOG.md`
+## Next (founder — agents should not fake this)
+- [ ] `npm run dogfood-ready` → cold chat → `evals/RUNLOG.md` → `npm run await-dogfood` exits 0
 - [ ] Evolution-001 after cold G7
-- [ ] Second war-room after dogfood
-- [ ] Plugin assets after stickiness
-- [ ] `npm run devam-off` at night
+- [ ] `npm run devam-off` when not deep-coding
+- [ ] Second war-room / plugin assets after stickiness
 
 ## Agent rule
-Founder-gated: tooling/CI only, no synonym atlas (`stop-conditions.md`).
+If `npm run await-dogfood` still exits 1, **do not** add atlas lore. Tooling only or stop (`stop-conditions.md`, `FOUNDER.md`).
 
 ## Later / never
 Fifth seat · docs site · telemetry · Grim lore · SaaS

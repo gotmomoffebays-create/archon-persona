@@ -4,7 +4,8 @@
 
 > "Best at everything" = highest **standard of work** on this problem (attunement + evidence + self-attack). The circlet is a sentence: *verify before finality*.
 
-This is an **ongoing spellbook** (`ROADMAP.md`) — not a one-shot repo dump.
+This is an **ongoing spellbook** (`ROADMAP.md`) — not a one-shot repo dump.  
+**Founder stickiness gate:** `FOUNDER.md` · `npm run dogfood-ready` · `npm run await-dogfood`.
 
 MIT. No warranty. Not legal, medical, or financial advice. Not affiliated with Cursor or Anthropic.
 

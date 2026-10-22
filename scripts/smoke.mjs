@@ -11,7 +11,12 @@ import { fileURLToPath } from 'node:url';
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const ci = process.argv.includes('--ci') || process.env.CI === 'true' || process.env.ARCHON_CI === '1';
 
-for (const rel of ['tests/content.test.mjs', 'tests/demos.test.mjs', 'tests/dogfood.test.mjs']) {
+for (const rel of [
+  'tests/content.test.mjs',
+  'tests/demos.test.mjs',
+  'tests/dogfood.test.mjs',
+  'tests/await-dogfood.test.mjs',
+]) {
   const test = spawnSync(process.execPath, [join(root, rel)], { stdio: 'inherit' });
   if (test.status !== 0) process.exit(test.status ?? 1);
 }

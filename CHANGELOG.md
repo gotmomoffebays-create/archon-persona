@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.13 — 2026-10-22
+
+- `FOUNDER.md` one-pager for cold dogfood
+- `npm run await-dogfood` gate (fail closed until RUNLOG scored)
+- `tests/await-dogfood.test.mjs`
+
 ## 1.3.12 — 2026-10-22
 
 - `npm run dogfood-ready` one-shot for cold eval

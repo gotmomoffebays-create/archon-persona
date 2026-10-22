@@ -41,6 +41,10 @@ DOGFOOD READY
 3. Open: ${sheet}
 4. Paste G1, then G3, then G7 as user messages
 5. Fill evals/RUNLOG.md (stub is at bottom of the sheet)
+6. Confirm: npm run await-dogfood
+7. Stop auto-loop if done coding: npm run devam-off
+
+See FOUNDER.md
 
 ${head}
 ========================================
