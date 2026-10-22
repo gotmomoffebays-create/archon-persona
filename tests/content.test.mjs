@@ -115,6 +115,8 @@ ok(existsSync(join(root, 'scripts/devam-on.mjs')), 'devam-on');
 ok(existsSync(join(root, 'scripts/devam-off.mjs')), 'devam-off');
 ok(existsSync(join(root, 'scripts/smoke.mjs')), 'smoke script');
 ok(/"smoke"/.test(readFileSync(join(root, 'package.json'), 'utf8')), 'npm smoke script');
+ok(existsSync(join(root, 'scripts/dogfood-print.mjs')), 'dogfood script');
+ok(/"dogfood"/.test(readFileSync(join(root, 'package.json'), 'utf8')), 'npm dogfood script');
 ok(existsSync(join(root, 'skills/archon/references/hotkeys.tr.md')), 'hotkeys.tr');
 ok(existsSync(join(root, 'demos/g7-blandness-bait.md')), 'g7 demo');
 

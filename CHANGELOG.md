@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.10 — 2026-10-22
+
+- Dogfood enablement: `npm run dogfood` → `evals/DOGFOOD-SHEET.md`
+- RUNLOG stub + HOW-TO-RUNLOG steps updated
+- `tests/demos.test.mjs`; stop-conditions allow tooling batches when lore is gated
+
 ## 1.3.9 — 2026-10-22
 
 - `prompts-cheatsheet.tr.md` + GOLDEN G15

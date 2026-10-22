@@ -2,14 +2,20 @@
 
 For pack authors and `devam` auto-continue — not for end-user product decisions.
 
-## Stop deepening content when
+## Stop deepening *atlas lore* when
 
 1. ROADMAP open items are only founder-gated (cold RUNLOG, dogfood war-room).
 2. Last two batches only added synonyms without new failure classes.
 3. `npm run stats` line growth without new GOLDEN or Example letter.
 4. User said `devam-off` / dur / gece bitti.
 
-## Still deepen when
+## Still ship (not soup) when founder-gated
+
+- Dogfood helpers: `npm run dogfood`, RUNLOG stubs, smoke/sync fixes
+- Demo quality gates / test hardening
+- Evolution revise after a **failed** cold G#
+
+## Still deepen atlas when
 
 - A GOLDEN fails cold (Evolution revise)
 - A new failure class appeared in dogfood notes

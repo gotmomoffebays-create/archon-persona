@@ -6,6 +6,8 @@
 
 **Verdict:** Refuse permanent CFO seat. Money lens once → invite Boardroom CFO for one turn, then dismiss — or run `/theboardroom`.
 
+**Kill criteria:** None unlocks a fifth permanent seat — product law is the kill (`compounds.md`).
+
 **Next move:** If the live decision needs numbers, guest once tonight; do not open a fifth skill folder.
 
 **Source:** `compounds.md`, `guests.md`.

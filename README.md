@@ -32,7 +32,7 @@ npm run stats        # refresh SPELLBOOK-SIZE.md
 Restart Cursor → new Agent chat → `skills/archon/references/onboarding.md` (5-minute circlet drill).  
 Copy-paste invokes: `prompts-cheatsheet.md` · Türkçe: `prompts-cheatsheet.tr.md`.
 
-Cold quality bar: `evals/GOLDEN.md` · how to log: `evals/HOW-TO-RUNLOG.md` · log: `evals/RUNLOG.md`.  
+Cold quality bar: `evals/GOLDEN.md` · paste sheet: `npm run dogfood` · how to log: `evals/HOW-TO-RUNLOG.md` · log: `evals/RUNLOG.md`.  
 Frozen density samples: `demos/`. Anti-bloat law: `skills/archon/references/compounds.md`.  
 Honest inventory: `SPELLBOOK-SIZE.md` (not a Grim page-count race).
 

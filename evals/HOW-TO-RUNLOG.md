@@ -5,11 +5,13 @@ Founder dogfood — do this once per sync SHA you care about.
 ## Steps
 
 1. `cd` archon-persona → `npm test && npm run sync-local && npm run smoke`
-2. **Restart Cursor** (or new Agent chat) so skills reload.
-3. Open a **new** Agent chat. Do not paste coaching from demos.
-4. Run prompts from `GOLDEN.md` (G1, G3, G7 minimum; ideally G1–G12).
-5. For each, score the checklist at the bottom of `GOLDEN.md`.
-6. Append a block to `RUNLOG.md`:
+2. Generate paste sheet: `npm run dogfood` (writes `evals/DOGFOOD-SHEET.md`; default G1+G3+G7).  
+   All prompts: `npm run dogfood -- all`
+3. **Restart Cursor** (or new Agent chat) so skills reload.
+4. Open a **new** Agent chat. Do not paste coaching from demos.
+5. Paste each block from the dogfood sheet as the **user** message.
+6. For each, score the checklist at the bottom of `GOLDEN.md`.
+7. Append a block to `RUNLOG.md`:
 
 ```
 ### Run YYYY-MM-DD
@@ -24,8 +26,8 @@ Founder dogfood — do this once per sync SHA you care about.
 - Would invoke again tomorrow? Y/N
 ```
 
-7. If G7 fails → open `EVOLUTION-001.md`, mark **revise** (not keep).
-8. If G1+G3 pass and you'd invoke again → dogfood gate progressing.
+8. If G7 fails → open `EVOLUTION-001.md`, mark **revise** (not keep).
+9. If G1+G3 pass and you'd invoke again → dogfood gate progressing.
 
 ## Ban
 
