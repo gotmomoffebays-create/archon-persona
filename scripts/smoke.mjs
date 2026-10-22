@@ -1,18 +1,24 @@
 #!/usr/bin/env node
 /**
- * Post-sync smoke: content tests + skill install targets exist on this machine.
+ * Post-sync smoke: all tests + (unless --ci) skill install targets on this machine.
  */
 import { existsSync } from 'node:fs';
-import { join } from 'node:path';
+import { join, dirname } from 'node:path';
 import { homedir } from 'node:os';
 import { spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
-import { dirname } from 'node:path';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
+const ci = process.argv.includes('--ci') || process.env.CI === 'true' || process.env.ARCHON_CI === '1';
+
 for (const rel of ['tests/content.test.mjs', 'tests/demos.test.mjs', 'tests/dogfood.test.mjs']) {
   const test = spawnSync(process.execPath, [join(root, rel)], { stdio: 'inherit' });
   if (test.status !== 0) process.exit(test.status ?? 1);
+}
+
+if (ci) {
+  console.log('smoke ok — tests green (CI mode: skip ~/.agents check)');
+  process.exit(0);
 }
 
 const seats = ['archon', 'blade', 'mirror', 'loom', 'apex-chamber'];

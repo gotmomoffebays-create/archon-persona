@@ -119,6 +119,12 @@ ok(existsSync(join(root, 'scripts/dogfood-print.mjs')), 'dogfood script');
 ok(/"dogfood"/.test(readFileSync(join(root, 'package.json'), 'utf8')), 'npm dogfood script');
 ok(existsSync(join(root, 'scripts/verify.mjs')), 'verify script');
 ok(/"verify"/.test(readFileSync(join(root, 'package.json'), 'utf8')), 'npm verify script');
+ok(existsSync(join(root, 'scripts/dogfood-ready.mjs')), 'dogfood-ready script');
+ok(existsSync(join(root, '.github/workflows/verify.yml')), 'github verify workflow');
+ok(
+  /--ci|ARCHON_CI|CI ===/.test(readFileSync(join(root, 'scripts/smoke.mjs'), 'utf8')),
+  'smoke supports ci mode',
+);
 ok(existsSync(join(root, 'skills/archon/references/hotkeys.tr.md')), 'hotkeys.tr');
 ok(existsSync(join(root, 'demos/g7-blandness-bait.md')), 'g7 demo');
 

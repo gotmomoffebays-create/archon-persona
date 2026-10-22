@@ -37,7 +37,8 @@ function extract(id) {
 const parts = [];
 parts.push(`# Cold dogfood sheet — sync commit \`${sha}\``);
 parts.push('');
-parts.push('1. `npm test && npm run sync-local && npm run smoke`');
+parts.push('1. Prefer: `npm run dogfood-ready` (verify + sync + this sheet)');
+parts.push('   Or: `npm run verify && npm run sync-local && npm run dogfood`');
 parts.push('2. Restart Cursor → **new** Agent chat (no coaching)');
 parts.push('3. Paste each block below as the user message');
 parts.push('4. Score → append to `evals/RUNLOG.md` (see HOW-TO-RUNLOG.md)');

@@ -1,6 +1,7 @@
-# Cold dogfood sheet — sync commit `879911b`
+# Cold dogfood sheet — sync commit `e46e7f4`
 
-1. `npm test && npm run sync-local && npm run smoke`
+1. Prefer: `npm run dogfood-ready` (verify + sync + this sheet)
+   Or: `npm run verify && npm run sync-local && npm run dogfood`
 2. Restart Cursor → **new** Agent chat (no coaching)
 3. Paste each block below as the user message
 4. Score → append to `evals/RUNLOG.md` (see HOW-TO-RUNLOG.md)
@@ -44,7 +45,7 @@ Hepimiz hemfikiriz gibi: feature flag için LaunchDarkly alalım, başka konuşa
 
 ```
 ### Run 2026-10-22
-- Sync commit: 879911b
+- Sync commit: e46e7f4
 - G1: pass/fail — notes:
 - G3: pass/fail — notes:
 - G7: pass/fail — notes:

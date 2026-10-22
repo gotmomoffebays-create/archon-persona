@@ -4,9 +4,10 @@ Founder dogfood — do this once per sync SHA you care about.
 
 ## Steps
 
-1. `cd` archon-persona → `npm run verify` (or `npm test && npm run sync-local && npm run smoke`)
-2. Generate paste sheet: `npm run dogfood` (writes `evals/DOGFOOD-SHEET.md`; default G1+G3+G7).  
+1. `cd` archon-persona → **`npm run dogfood-ready`** (preferred)  
+   Or: `npm run verify && npm run sync-local && npm run dogfood`  
    All prompts: `npm run dogfood -- all`
+2. Sheet path: `evals/DOGFOOD-SHEET.md`
 3. **Restart Cursor** (or new Agent chat) so skills reload.
 4. Open a **new** Agent chat. Do not paste coaching from demos.
 5. Paste each block from the dogfood sheet as the **user** message.

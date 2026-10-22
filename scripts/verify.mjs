@@ -20,6 +20,6 @@ run('demos', [join(root, 'tests/demos.test.mjs')]);
 run('dogfood-parse', [join(root, 'tests/dogfood.test.mjs')]);
 run('dogfood sheet', [join(root, 'scripts/dogfood-print.mjs')]);
 run('stats', [join(root, 'scripts/spellbook-stats.mjs')]);
-run('smoke', [join(root, 'scripts/smoke.mjs')]);
+run('smoke', [join(root, 'scripts/smoke.mjs')]); // local: requires sync-local once
 
-console.log('\nverify ok');
+console.log('\nverify ok — for CI without ~/.agents: npm test && npm run smoke -- --ci');

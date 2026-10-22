@@ -24,11 +24,14 @@ Guests (Grim / CoHI / Boardroom / Pressure…): one-turn invite only — `skills
 git clone https://github.com/gotmomoffebays-create/archon-persona.git
 cd archon-persona
 npm test
-npm run verify       # tests + dogfood sheet + stats + smoke
-npm run sync-local   # → ~/.agents/skills, Agent Store, local plugin
-npm run dogfood      # cold-eval paste sheet
-npm run stats        # refresh SPELLBOOK-SIZE.md
+npm run verify        # tests + dogfood sheet + stats + smoke
+npm run dogfood-ready # verify + sync-local + dogfood + next-step banner
+npm run sync-local    # → ~/.agents/skills, Agent Store, local plugin
+npm run dogfood       # cold-eval paste sheet only
+npm run stats         # refresh SPELLBOOK-SIZE.md
 ```
+
+CI: `.github/workflows/verify.yml` runs `npm test` + `smoke --ci` on push/PR.
 
 Restart Cursor → new Agent chat → `skills/archon/references/onboarding.md` (5-minute circlet drill).  
 Copy-paste invokes: `prompts-cheatsheet.md` · Türkçe: `prompts-cheatsheet.tr.md`.
