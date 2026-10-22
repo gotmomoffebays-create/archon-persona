@@ -11,7 +11,7 @@ npm run sync-local
 npm run smoke
 ```
 
-Restart Cursor. New Agent chat. Paste lines from `prompts-cheatsheet.md` if useful.
+Restart Cursor. New Agent chat. Paste lines from `prompts-cheatsheet.md` or `prompts-cheatsheet.tr.md`.
 
 ## Circlet drill (solo)
 

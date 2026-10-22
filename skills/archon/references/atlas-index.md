@@ -15,7 +15,8 @@ Do not dump this list in replies. Open a page when the step needs it.
 | `monday-moves.md` | Next move is foggy; need a sharp shape |
 | `glossary.md` | Terms unclear; teach grades/chamber plainly |
 | `compounds.md` | Tempted to add seats/lore/soup — refuse list |
-| `prompts-cheatsheet.md` | User wants copy-paste invoke lines |
+| `prompts-cheatsheet.md` | User wants copy-paste invoke lines (EN) |
+| `prompts-cheatsheet.tr.md` | Aynı kağıt, Türkçe |
 | `lenses/writing.md` | RFC/docs decision quality |
 | `decision-trees.md` | Binary/multi fork clarity |
 | `hotkeys.md` | User sends `K` or exact key |

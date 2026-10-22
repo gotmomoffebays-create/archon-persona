@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.9 — 2026-10-22
+
+- `prompts-cheatsheet.tr.md` + GOLDEN G15
+- Example W (contractor vs FT hire)
+- `stop-conditions.md` for devam / deepen halt rules
+
 ## 1.3.8 — 2026-10-22
 
 - Atlas: `prompts-cheatsheet.md` (TR/EN paste invokes)

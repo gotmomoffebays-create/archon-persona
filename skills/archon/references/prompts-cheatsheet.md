@@ -1,6 +1,7 @@
-# Prompts cheatsheet — copy-paste invokes (TR / EN)
+# Prompts cheatsheet — copy-paste invokes (EN + mixed)
 
-Do not dump this in replies. Open when the user asks "how do I start" or wants pasteable lines.
+Do not dump this in replies. Open when the user asks "how do I start" or wants pasteable lines.  
+**Türkçe tam kağıt:** `prompts-cheatsheet.tr.md`.
 
 ## Solo Archon
 

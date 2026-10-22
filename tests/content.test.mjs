@@ -51,6 +51,8 @@ const archonRefs = [
   'glossary.md',
   'compounds.md',
   'prompts-cheatsheet.md',
+  'prompts-cheatsheet.tr.md',
+  'stop-conditions.md',
 ];
 for (const r of archonRefs) {
   ok(existsSync(join(root, 'skills/archon/references', r)), `missing ref ${r}`);
@@ -78,7 +80,14 @@ const golden = readFileSync(join(root, 'evals/GOLDEN.md'), 'utf8');
 ok(/G7/i.test(golden), 'GOLDEN has G7');
 ok(/G8/i.test(golden), 'GOLDEN has G8');
 ok(/G9/i.test(golden) && /G10/i.test(golden), 'GOLDEN has G9+G10');
-ok(/G11/i.test(golden) && /G12/i.test(golden) && /G13/i.test(golden) && /G14/i.test(golden), 'GOLDEN G11–G14');
+ok(
+  /G11/i.test(golden) &&
+    /G12/i.test(golden) &&
+    /G13/i.test(golden) &&
+    /G14/i.test(golden) &&
+    /G15/i.test(golden),
+  'GOLDEN G11–G15',
+);
 ok(existsSync(join(root, 'scripts/spellbook-stats.mjs')), 'stats script');
 ok(existsSync(join(root, 'demos/cheatsheet-start.md')), 'cheatsheet demo');
 ok(/VERIFIED/.test(readFileSync(join(root, 'skills/archon/references/glossary.md'), 'utf8')), 'glossary grades');
@@ -135,8 +144,8 @@ ok(/VERIFIED|INFERRED|ASSUMED|UNKNOWN/.test(spine), 'evidence ladder');
 ok(/RESTATE|ATTUNE|GRADE|AUDIT/i.test(spine), 'spine steps');
 
 const examples = readFileSync(join(root, 'skills/archon/references/worked-examples.md'), 'utf8');
-ok(/Example T/i.test(examples) && /Example V/i.test(examples), 'examples T+V');
-ok((examples.match(/^## Example /gm) || []).length >= 20, '≥20 worked examples');
+ok(/Example W/i.test(examples), 'example W');
+ok((examples.match(/^## Example /gm) || []).length >= 21, '≥21 worked examples');
 ok(existsSync(join(root, 'SPELLBOOK-SIZE.md')), 'SPELLBOOK-SIZE.md');
 ok(
   /Tree T9/i.test(readFileSync(join(root, 'skills/archon/references/decision-trees.md'), 'utf8')),

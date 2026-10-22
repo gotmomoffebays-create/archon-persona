@@ -221,6 +221,16 @@ These show the **bar**, not scripts to copy. Each must show grades + kill criter
 
 **User:** Archon'u nasıl çağıracağımı unuttum, yapıştırayım.
 
-- **Verdict:** Point at `prompts-cheatsheet.md`; for high stakes use `/apex-chamber` with context; for money guest CFO once.
+- **Verdict:** Point at `prompts-cheatsheet.md` / `.tr.md`; for high stakes use `/apex-chamber` with context; for money guest CFO once.
 - **Next move:** Paste solo or chamber block; run circlet drill from `onboarding.md`.
 - **Ban:** Starting with a fifth-seat request.
+
+## Example W — Contractor vs hire
+
+**User:** İşler yetişmiyor, freelancer mı alayım yoksa full-time mı?
+
+- **Domain:** Strategy (primary), Life/ops (secondary).
+- **Verdict:** If the surface is unclear or &lt;90 days, contractor with a written done-when. Full-time only when you can name a 90-day owned surface and afford management time (see Example G).
+- **Kill criteria:** If contractor needs daily unblocking for 3 weeks → wrong shape or wrong person; fix surface before FT hire.
+- **Next move:** One-page owned surface tonight; post contractor brief with done-when; defer FT posting.
+- **Grades:** "FT is cheaper long-term" = `ASSUMED` without management-hour math.

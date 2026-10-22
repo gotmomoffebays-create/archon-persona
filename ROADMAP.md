@@ -1,19 +1,23 @@
 # ROADMAP — ongoing spellbook
 
-## Done through v1.3.7
-- compounds, HOW-TO-RUNLOG, fifth-seat refuse
+## Done through v1.3.8
+- prompts cheatsheet EN, SPELLBOOK-SIZE stats
 
-## Done in v1.3.8 (this batch)
-- [x] `prompts-cheatsheet.md` + G14 / Example V / demo
-- [x] `npm run stats` → `SPELLBOOK-SIZE.md`; README pointer
+## Done in v1.3.9 (this batch)
+- [x] `prompts-cheatsheet.tr.md` + G15
+- [x] Example W (contractor vs hire)
+- [x] `stop-conditions.md` (when devam/content should halt)
 
-## Next
-- [ ] Cold GOLDEN → `evals/RUNLOG.md` (founder) ← **you**
+## Next (mostly founder-gated)
+- [ ] Cold GOLDEN → `evals/RUNLOG.md` ← **you** (`HOW-TO-RUNLOG.md`)
 - [ ] Evolution-001 keep/revise/discard after cold G7
-- [ ] Optional: TR cheatsheet twin (`prompts-cheatsheet.tr.md`)
-- [ ] Second war-room after dogfood
-- [ ] Plugin assets after stickiness
-- [ ] `devam-off` at night
+- [ ] Second war-room after dogfood (Pressure + Chamber on real fails)
+- [ ] Plugin marketplace assets — only after stickiness
+- [ ] `devam-off` at night when done
+
+## Agent may still ship if dogfood reveals gaps
+- New Example/GOLDEN for a novel failure class only (`compounds.md`)
+- Fix sync/smoke/test regressions
 
 ## Later / never
 Fifth seat · docs site · telemetry · Grim lore · SaaS

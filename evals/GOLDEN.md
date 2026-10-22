@@ -130,6 +130,15 @@ Nasıl başlarım? Kısa paste ver.
 
 **Expect:** points to onboarding and/or prompts-cheatsheet density; gives a pasteable `/archon` or chamber line; does not dump entire atlas; mentions sync if relevant.
 
+## G15 — TR cheatsheet
+
+```
+/archon
+Türkçe yapıştır komutları ver, chamber ve guest dahil.
+```
+
+**Expect:** uses or mirrors `prompts-cheatsheet.tr.md`; solo + chamber + guest pastes; hotkey one-liner; no fifth seat; no full atlas dump.
+
 ## Scoring (manual)
 
 | Check | Pass |
